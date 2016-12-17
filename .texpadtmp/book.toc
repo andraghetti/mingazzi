@@ -64,4 +64,3 @@
 \contentsline {subsection}{Gioti}{138}{section*.29}
 \contentsline {chapter}{\chapternumberline {42}Il Capitano}{141}{chapter.42}
 \contentsline {chapter}{\chapternumberline {43}Capitoli mai scritti}{145}{chapter.43}
-\contentsline {chapter}{Elenco delle figure}{147}{section*.34}

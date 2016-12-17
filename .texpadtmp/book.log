@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.5.27)  17 DEC 2016 19:50
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.5.27)  17 DEC 2016 21:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -330,15 +330,15 @@ Package verse [2008/07/23] emulated by memoir.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/memoir/mempatch.sty
 Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
 ))
-\name=Personaggi@idxfile=\write4
-\openout4 = `name=Personaggi.idx'.
+\Personaggi@idxfile=\write4
+\openout4 = `Personaggi.idx'.
 
 
-Writing index file name=Personaggi.idx 
-\name=Luoghi@idxfile=\write5
-\openout5 = `name=Luoghi.idx'.
+Writing index file Personaggi.idx 
+\Luoghi@idxfile=\write5
+\openout5 = `Luoghi.idx'.
 
-Writing index file name=Luoghi.idx 
+Writing index file Luoghi.idx 
 \@input{structure.aux}
 \openout2 = `structure.aux'.
 
@@ -1339,6 +1339,8 @@ Package: multicol 2016/02/08 v1.8o multicolumn formatting (FMi)
 \c@idxcols=\count193
 \ila@indentunit=\skip193
 \ila@initsep=\skip194
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/imakeidx/imakeidx.sty
+Package: imakeidx 2016/04/03 v1.3b Package for typesetting indices in a synchronous mode
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen194
 \WF@size=\dimen256
@@ -1881,7 +1883,8 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedLeftParindent=\skip284
 \RaggedRightParindent=\skip285
 \JustifyingParindent=\skip286
-) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/book.aux (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Copertina.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Dedica.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Indice.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Biografia.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Prefazione.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/CriteriTrascrizione.aux))
+) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/book.aux (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Copertina.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Dedica.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Indice.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Biografia.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Prefazione.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/CriteriTrascrizione.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo1.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo2.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo3.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo4.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo5.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo6.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo7.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo8.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo9.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo10.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo11.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo12.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo13.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo14.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo15.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo16.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo17.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo18.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo19.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo20.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo21.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo22.aux)
+(/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo23.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo24.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo25.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo26.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo27.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo28.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo29.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo30.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo31.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo32.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo33.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo34.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo35.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo36.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo37.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo38.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo39.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo40.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo41.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo42.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo43.aux))
 \openout1 = `book.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -1954,11 +1957,194 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `futs' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchcmd with sig. '' on line 125.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretocmd with sig. '' on line 126.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptocmd with sig. '' on line 127.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowcmd with sig. '' on line 128.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibmacro with sig. 'm' on line 131.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibmacro with sig. 'm' on line 133.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibmacro with sig. 'm' on line 135.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibmacro with sig. 'm' on line 137.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchfieldformat with sig. 'O{*}m' on line 139.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretofieldformat with sig. 'O{*}m' on line 141.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptofieldformat with sig. 'O{*}m' on line 143.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowfieldformat with sig. 'O{*}m' on line 145.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchnameformat with sig. 'O{*}m' on line 147.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretonameformat with sig. 'O{*}m' on line 149.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptonameformat with sig. 'O{*}m' on line 151.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshownameformat with sig. 'O{*}m' on line 153.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchlistformat with sig. 'O{*}m' on line 155.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretolistformat with sig. 'O{*}m' on line 157.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptolistformat with sig. 'O{*}m' on line 159.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowlistformat with sig. 'O{*}m' on line 161.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexfieldformat with sig. 'O{*}m' on line 163.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexfieldformat with sig. 'O{*}m' on line 165.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexfieldformat with sig. 'O{*}m' on line 167.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexfieldformat with sig. 'O{*}m' on line 169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexnameformat with sig. 'O{*}m' on line 171.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexnameformat with sig. 'O{*}m' on line 173.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexnameformat with sig. 'O{*}m' on line 175.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexnameformat with sig. 'O{*}m' on line 177.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexlistformat with sig. 'O{*}m' on line 179.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexlistformat with sig. 'O{*}m' on line 181.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xappindextolistformat with sig. 'O{*}m' on line 183.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexlistformat with sig. 'O{*}m' on line 185.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibdriver with sig. 'm' on line 187.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibdriver with sig. 'm' on line 189.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibdriver with sig. 'm' on line 191.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibdriver with sig. 'm' on line 193.
+.................................................
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box84
 Package hyperref Info: Link coloring OFF on input line 19.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -2041,162 +2227,162 @@ Requested font "futr8t" at 12.0pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
 Requested font "futri8t" at 12.0pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
-Requested font "futri8t" at 20.74pt
+Requested font "futri8t" at 17.28pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
 
 
 LaTeX Font Warning: Font shape `EU1/Tangerine(0)/m/it' undefined
-(Font)              using `EU1/Tangerine(0)/m/n' instead on input line 10.
+(Font)              using `EU1/Tangerine(0)/m/n' instead on input line 9.
 
-Requested font "Tangerine/AAT:mapping=tex-text;" at 20.74pt
+Requested font "Tangerine/AAT:mapping=tex-text;" at 17.28pt
  -> /Users/Andraghetti/Library/Fonts/Tangerine_Regular.ttf
 Package microtype Info: Loading generic settings for font family
 (microtype)             `Tangerine' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package microtype Info: Character `\k A' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\u A' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\k a' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\u a' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'C' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v C' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'c' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v c' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v D' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v d' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\dj ' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\k E' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v E' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\k e' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v e' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\u G' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\u g' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\.I' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'L' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v L' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'l' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v l' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'N' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v N' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'n' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v n' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\H O' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\H o' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'R' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v R' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'r' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v r' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'S' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\c S' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'s' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\c s' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\c T' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v T' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\c t' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\v t' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\H U' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\r U' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\H u' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\r u' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'Z' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\.Z' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\'z' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\.z' is missing
-(microtype)             in font `\EU1/Tangerine(0)/m/n/20.74'.
+(microtype)             in font `\EU1/Tangerine(0)/m/n/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 ) [3
 
@@ -2357,12 +2543,15 @@ Underfull \hbox (badness 4096) in paragraph at lines 21--22
  []
 
 ) [15] [16]
+\openout2 = `capitolo1.aux'.
+
+ (./capitolo1.tex
 Requested font "futr8t" at 10.95pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
 Requested font "futrc8t" at 10.95pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futrc8t.tfm
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 43.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 5.
 Requested font "futb8t" at 12.0pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 Requested font "futri8t" at 8.0pt
@@ -2378,11 +2567,11 @@ Requested font "futsy" at 8.0pt
 Requested font "futsy" at 6.8pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 44.
+(Font)              scaled to size 7.35999pt on input line 6.
 Requested font "fourier-mex" at 7.35999pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 44.
+(Font)              scaled to size 6.25598pt on input line 6.
 Requested font "fourier-mex" at 6.25598pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
 Requested font "futmi" at 8.0pt
@@ -2390,11 +2579,11 @@ Requested font "futmi" at 8.0pt
 Requested font "futmi" at 6.8pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 44.
+(Font)              scaled to size 7.35999pt on input line 6.
 Requested font "fourier-bb" at 7.35999pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 44.
+(Font)              scaled to size 6.25598pt on input line 6.
 Requested font "fourier-bb" at 6.25598pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 Missing character: There is no ’ in font futr8t!
@@ -2402,7 +2591,7 @@ Missing character: There is no “ in font futr8t!
 Missing character: There is no “ in font futr8t!
 Missing character: There is no ” in font futr8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--49
+Underfull \hbox (badness 10000) in paragraph at lines 6--11
 \T1/futs/m/n/10 Insieme da buo-ni ami-co-ni, col tra-di-zio-na-le ca-val-lo e
  []
 
@@ -2412,6 +2601,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [17
 
 
+
 ]
 Missing character: There is no ’ in font futr8t!
 Missing character: There is no ’ in font futr8t!
@@ -2449,12 +2639,17 @@ Missing character: There is no “ in font futr8t!
 Missing character: There is no ’ in font futr8t!
 Missing character: There is no ” in font futr8t!
 Missing character: There is no ’ in font futr8t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--63
+)
+Underfull \hbox (badness 10000) in paragraph at lines 14--39
 
  []
 
-[18] [19] [20
+[18] [19]
+\openout2 = `capitolo2.aux'.
+
+ (./capitolo2.tex [20
+
+
 
 ]
 Missing character: There is no “ in font futr8t!
@@ -2468,13 +2663,13 @@ Missing character: There is no ‘ in font futr8t!
 Missing character: There is no ’ in font futr8t!
 Missing character: There is no ‘ in font futr8t!
 Missing character: There is no ’ in font futr8t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--76
+)
+Underfull \hbox (badness 10000) in paragraph at lines 6--40
 \T1/futs/m/n/10 Il suo sen-ti-men-ta-li-smo ave-va pa-rec-chie espres-sio-ni di
  []
 
 
-Underfull \hbox (badness 7595) in paragraph at lines 69--76
+Underfull \hbox (badness 7595) in paragraph at lines 6--40
 \T1/futs/m/n/10 par-ti, poi bat-ten-do-vi so-pra il pal-mo del-la ma-no con
  []
 
@@ -2482,14 +2677,24 @@ Underfull \hbox (badness 7595) in paragraph at lines 69--76
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21] [22]
+\openout2 = `capitolo3.aux'.
+
+ (./capitolo3.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23
 
-] [24] [25] [26
 
-]
-Underfull \hbox (badness 4001) in paragraph at lines 113--121
+
+]) [24] [25]
+\openout2 = `capitolo4.aux'.
+
+ (./capitolo4.tex [26
+
+
+
+])
+Underfull \hbox (badness 4001) in paragraph at lines 6--42
 \T1/futs/m/n/10 La con-fi-den-za tra la Fi-lo-me-na e gli ope-rai era gran-de,
  []
 
@@ -2497,12 +2702,15 @@ Underfull \hbox (badness 4001) in paragraph at lines 113--121
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27] [28]
-Underfull \hbox (badness 4899) in paragraph at lines 128--145
+\openout2 = `capitolo5.aux'.
+
+ (./capitolo5.tex
+Underfull \hbox (badness 4899) in paragraph at lines 6--23
 \T1/futs/m/n/10 Con que-sta chiu-sa[][][] co-min-ciò la sua nuo-va of-fi-cia-tu-ra
  []
 
 
-Underfull \hbox (badness 6542) in paragraph at lines 128--145
+Underfull \hbox (badness 6542) in paragraph at lines 6--23
 \T1/futs/m/n/10 schiop-po[][][], del qua-le il no-stro don Mat-teo ave-va un
  []
 
@@ -2511,18 +2719,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29
 
+
+
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30] [31] [32
+ [30]) [31]
+\openout2 = `capitolo6.aux'.
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 152--175
+ (./capitolo6.tex [32
+
+
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 7--44
 \T1/futs/m/n/10 Era ca-rat-te-ri-sti-co an-che nel-le fun-zio-ni del-la mes-sa;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--175
+Underfull \hbox (badness 10000) in paragraph at lines 7--44
 
  []
 
@@ -2532,10 +2747,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34] [35] [36
+ [34] [35]
+\openout2 = `capitolo7.aux'.
+
+ (./capitolo7.tex [36
+
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 182--188
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
 
  []
 
@@ -2545,12 +2765,14 @@ Underfull \vbox (badness 4981) has occurred while \output is active []
  [37]
 Requested font "Tangerine/AAT:mapping=tex-text;" at 10.0pt
  -> /Users/Andraghetti/Library/Fonts/Tangerine_Regular.ttf
+Requested font "Tangerine/AAT:mapping=tex-text;" at 20.74pt
+ -> /Users/Andraghetti/Library/Fonts/Tangerine_Regular.ttf
 Missing character: There is no ‘ in font futr8t!
 Missing character: There is no ‘ in font futri8t!
 Missing character: There is no ‘ in font futr8t!
 Missing character: There is no ‘ in font futri8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--207
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
 
@@ -2566,11 +2788,11 @@ Requested font "futsy" at 20.74pt
 Requested font "futsy" at 14.4pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 19.08076pt on input line 213.
+(Font)              scaled to size 19.08076pt on input line 37.
 Requested font "fourier-mex" at 19.08076pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 213.
+(Font)              scaled to size 13.24796pt on input line 37.
 Requested font "fourier-mex" at 13.24796pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
 Requested font "futmi" at 20.74pt
@@ -2578,14 +2800,19 @@ Requested font "futmi" at 20.74pt
 Requested font "futmi" at 14.4pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 19.08076pt on input line 213.
+(Font)              scaled to size 19.08076pt on input line 37.
 Requested font "fourier-bb" at 19.08076pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 213.
+(Font)              scaled to size 13.24796pt on input line 37.
 Requested font "fourier-bb" at 13.24796pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
- [39] [40
+) [39]
+\openout2 = `capitolo8.aux'.
+
+ (./capitolo8.tex [40
+
+
 
 ]
 Requested font "ecrm1095" at 10.95pt
@@ -2593,17 +2820,17 @@ Requested font "ecrm1095" at 10.95pt
 
 
 LaTeX Font Warning: Font shape `T1/LinBiolinum(0)/m/it' undefined
-(Font)              using `T1/LinBiolinum(0)/m/n' instead on input line 229.
+(Font)              using `T1/LinBiolinum(0)/m/n' instead on input line 6.
 
 Missing character: There is no ‘ in font futr8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--233
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
  []
 
 Missing character: There is no ’ in font futri8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--240
+Underfull \hbox (badness 10000) in paragraph at lines 11--17
 
  []
 
@@ -2612,43 +2839,46 @@ Underfull \vbox (badness 5008) has occurred while \output is active []
 
  [41]
 Missing character: There is no ‘ in font futr8t!
- [42]
-Underfull \hbox (badness 10000) in paragraph at lines 253--276
+) [42]
+\openout2 = `capitolo9.aux'.
+
+ (./capitolo9.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--276
+Underfull \hbox (badness 10000) in paragraph at lines 6--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--276
+Underfull \hbox (badness 10000) in paragraph at lines 6--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--276
+Underfull \hbox (badness 10000) in paragraph at lines 6--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--276
+Underfull \hbox (badness 10000) in paragraph at lines 6--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--276
+Underfull \hbox (badness 10000) in paragraph at lines 6--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--276
+Underfull \hbox (badness 10000) in paragraph at lines 6--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--276
+Underfull \hbox (badness 10000) in paragraph at lines 6--29
 
  []
 
@@ -2657,8 +2887,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43
 
-] [44]
-Underfull \hbox (badness 10000) in paragraph at lines 284--297
+
+
+]) [44]
+\openout2 = `capitolo10.aux'.
+
+ (./capitolo10.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
@@ -2667,72 +2902,107 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45
 
-]
-Underfull \hbox (badness 7047) in paragraph at lines 298--302
+
+
+])
+Underfull \hbox (badness 7047) in paragraph at lines 21--48
 \T1/futs/m/n/10 Lazzaro del co-mac-chie-se, pe-sci-ven-do-lo al mi-nu-to, era
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46] [47] [48
+ [46] [47]
+\openout2 = `capitolo11.aux'.
+
+ (./capitolo11.tex [48
+
+
 
 ]
-Underfull \hbox (badness 5345) in paragraph at lines 308--313
+Underfull \hbox (badness 5345) in paragraph at lines 6--11
 \T1/futs/m/n/10 mi per-do-ni, ecc." In-tan-to il pa-dro-ne s'im-pa-zien-ti-va[][][] e
  []
 
-[49] [50
+) [49]
+\openout2 = `capitolo12.aux'.
 
-]
-Underfull \hbox (badness 5417) in paragraph at lines 320--325
+ (./capitolo12.tex [50
+
+
+
+])
+Underfull \hbox (badness 5417) in paragraph at lines 6--50
 \T1/futs/m/n/10 Un va-gheg-gi-no[][][] del pae-se pre-ten-de-va una ra-gaz-za dei
  []
 
-[51] [52
+[51]
+\openout2 = `capitolo13.aux'.
+
+ (./capitolo13.tex [52
+
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 328--331
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
 \T1/futs/m/n/10 Per chi non lo sa-pes-se sem-bre-reb-be un'in-ven-zio-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--336
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--342
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
 \T1/futs/m/n/10 Sempre par-lan-do del no-stro uo-mo che in fon-do era
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53] [54]
+ [53]) [54]
+\openout2 = `capitolo14.aux'.
+
+ (./capitolo14.tex
 Missing character: There is no ‘ in font futri8t!
 Missing character: There is no ’ in font futri8t!
 Missing character: There is no ’ in font futri8t!
 Missing character: There is no ’ in font futri8t!
 Missing character: There is no ’ in font futri8t!
- [55
+) [55
 
-] [56
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 361--372
+\openout2 = `capitolo15.aux'.
+
+ (./capitolo15.tex [56
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 6--17
 \T1/futs/m/n/10 Figurarsi il ter-ro-re del-la po-po-la-zio-ne al-lo spet-ta-co-lo
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57] [58]
+ [57]) [58]
+\openout2 = `capitolo16.aux'.
+
+ (./capitolo16.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59
 
-] [60]
+
+
+]) [60]
+\openout2 = `capitolo17.aux'.
+
+ (./capitolo17.tex
 Missing character: There is no ’ in font futri8t!
 Missing character: There is no “ in font futri8t!
 Missing character: There is no ” in font futri8t!
@@ -2743,8 +3013,13 @@ Underfull \vbox (badness 4569) has occurred while \output is active []
 
  [61
 
-] [62]
-Underfull \hbox (badness 10000) in paragraph at lines 403--418
+
+
+]) [62]
+\openout2 = `capitolo18.aux'.
+
+ (./capitolo18.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 6--56
 
  []
 
@@ -2753,33 +3028,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63
 
+
+
 ] [64]
-Underfull \hbox (badness 6961) in paragraph at lines 425--441
+\openout2 = `capitolo19.aux'.
+
+ (./capitolo19.tex
+Requested font "futri8t" at 20.74pt
+ -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
+
+Underfull \hbox (badness 6961) in paragraph at lines 7--23
 \T1/futs/m/n/10 Ciro Bon-fi-glio-li, mae-stro ele-men-ta-re, poe-ta, cac-cia-to-re,
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 425--441
+Underfull \hbox (badness 4084) in paragraph at lines 7--23
 \T1/futs/m/n/10 In pri-ma-ve-ra ven-de-va i ve-sti-ti d'in-ver-no e com-pra-va a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--441
+Underfull \hbox (badness 10000) in paragraph at lines 7--23
 
  []
 
 
-Overfull \hbox (7.52719pt too wide) in paragraph at lines 425--441
+Overfull \hbox (7.52719pt too wide) in paragraph at lines 7--23
 [][][][] 
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 425--441
+Underfull \hbox (badness 4899) in paragraph at lines 7--23
 \T1/futs/m/n/10 Verso il 1886 c'e-ra qui nel-l'u-ni-co tea-tro, Ca-me-ra-ni[][][] la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--441
+Underfull \hbox (badness 10000) in paragraph at lines 7--23
 \T1/futs/m/n/10 "Quei ca-ni dei com-me-dian-ti han-no ro-vi-na-to la mia
  []
 
@@ -2787,6 +3070,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--441
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65
+
+
 
 ]
 Missing character: There is no ‘ in font futri8t!
@@ -2797,54 +3082,64 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Missing character: There is no – in font futri8t!
 Missing character: There is no ‘ in font futri8t!
 
-Underfull \hbox (badness 4819) in paragraph at lines 450--467
+Underfull \hbox (badness 4819) in paragraph at lines 32--49
 \T1/futs/m/n/10 Una vol-ta man-dò una poe-sia a Sua Mae-stà la Re-gi-na
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--467
+Underfull \hbox (badness 10000) in paragraph at lines 32--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--467
+Underfull \hbox (badness 10000) in paragraph at lines 32--49
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67] [68]
-Underfull \hbox (badness 10000) in paragraph at lines 474--483
+ [67]) [68]
+\openout2 = `capitolo20.aux'.
+
+ (./capitolo20.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--16
 
  []
 
 
-Overfull \hbox (7.52719pt too wide) in paragraph at lines 474--483
+Overfull \hbox (7.52719pt too wide) in paragraph at lines 7--16
 [][][][] 
  []
 
-[69
+) [69
 
-] [70
+
 
 ]
-Underfull \hbox (badness 5316) in paragraph at lines 489--499
+\openout2 = `capitolo21.aux'.
+
+ (./capitolo21.tex [70
+
+
+
+])
+Underfull \hbox (badness 5316) in paragraph at lines 6--59
 \T1/futs/m/n/10 scuo-la, per-so-na com-pi-tis-si-ma[][][], im-pec-ca-bil-men-te ve-sti-to
  []
 
 
-Underfull \hbox (badness 5939) in paragraph at lines 489--499
+Underfull \hbox (badness 5939) in paragraph at lines 6--59
 \T1/futs/m/n/10 Un gior-no usci-va dal-la scuo-la del Bor-go Gal-li-na[][][], sul
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--499
+Underfull \hbox (badness 10000) in paragraph at lines 6--59
 \T1/futs/m/n/10 mez-zo-gior-no, in-con-tra una vec-chiet-ta, con af-fa-bi-li-tà,
  []
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 489--499
+Underfull \hbox (badness 6445) in paragraph at lines 6--59
 \T1/futs/m/n/10 "Buona don-na, spen-den-do po-co si po-treb-be fa-re uno
  []
 
@@ -2852,39 +3147,57 @@ Underfull \hbox (badness 6445) in paragraph at lines 489--499
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [71] [72]
+\openout2 = `capitolo22.aux'.
+
+ (./capitolo22.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [73
 
-] [74] [75
 
-] [76
+
+] [74]
+\openout2 = `capitolo23.aux'.
+
+ (./capitolo23.tex) [75
+
+
 
 ]
-Underfull \hbox (badness 4713) in paragraph at lines 529--538
+\openout2 = `capitolo24.aux'.
+
+ (./capitolo24.tex [76
+
+
+
+]
+Underfull \hbox (badness 4713) in paragraph at lines 6--15
 \T1/futs/m/n/10 con-tro il par-ti-to pa-pa-li-no, che ave-va il suo espo-nen-te
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 529--538
+Underfull \hbox (badness 7326) in paragraph at lines 6--15
 \T1/futs/m/n/10 mal sop-por-ta-va-no le ul-ti-me schiop-pet-ta-te del-la guer-ra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--538
+Underfull \hbox (badness 10000) in paragraph at lines 6--15
 \T1/futs/m/n/10 Si era giun-ti al car-ne-va-le, l'e-le-men-to li-be-ra-le vo-le-va
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77] [78]
-Underfull \hbox (badness 5288) in paragraph at lines 544--557
+ [77]) [78]
+\openout2 = `capitolo25.aux'.
+
+ (./capitolo25.tex
+Underfull \hbox (badness 5288) in paragraph at lines 6--19
 \T1/futs/m/n/10 Nella chie-sa par-roc-chia-le ave-va-no se-de le con-fra-ter-ni-te
  []
 
 
-Underfull \hbox (badness 7468) in paragraph at lines 544--557
+Underfull \hbox (badness 7468) in paragraph at lines 6--19
 \T1/futs/m/n/10 Il cle-ro era nu-me-ro-so per i fu-ne-ra-li di 1ª clas-se, lo
  []
 
@@ -2893,38 +3206,48 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [79
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80] [81] [82
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83] [84]
+ [80]) [81]
+\openout2 = `capitolo26.aux'.
+
+ (./capitolo26.tex [82
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83]) [84]
+\openout2 = `capitolo27.aux'.
+
+ (./capitolo27.tex
 File: images/Boari.jpg Graphic file (type QTm)
  <use  "images/Boari.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 590--607
+Underfull \hbox (badness 10000) in paragraph at lines 13--30
 \T1/futs/m/n/10 di Mo-ne-ste-ro-lo[][][], ven-ne qui co-me
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 590--607
+Underfull \hbox (badness 10000) in paragraph at lines 13--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 590--607
+Underfull \hbox (badness 10000) in paragraph at lines 13--30
 
  []
 
 
-Underfull \hbox (badness 6461) in paragraph at lines 590--607
+Underfull \hbox (badness 6461) in paragraph at lines 13--30
 \T1/futs/m/n/10 Un gior-no gli fa-cem-mo uno scher-zo. Era-no pas-sa-te
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 590--607
+Underfull \hbox (badness 4144) in paragraph at lines 13--30
 \T1/futs/m/n/10 met-tem-mo in una sca-to-la bel-la, tut-ta ar-gen-ta-ta, e poi
  []
 
@@ -2933,67 +3256,77 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [85
 
+
+
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86] [87] [88
+ [86]) [87]
+\openout2 = `capitolo28.aux'.
+
+ (./capitolo28.tex [88
+
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 613--632
+Underfull \hbox (badness 10000) in paragraph at lines 6--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--632
+Underfull \hbox (badness 10000) in paragraph at lines 6--25
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89] [90]
-Underfull \hbox (badness 10000) in paragraph at lines 643--643
+ [89]) [90]
+\openout2 = `capitolo29.aux'.
+
+ (./capitolo29.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
  [][] [][][]\T1/futs/m/it/8 "Noi re-pub-bli-ca-ni fac-cia-mo un ora-to-rio qua die-tro le mu-ra di ???
  []
 
 Missing character: There is no ‘ in font futr8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 671--671
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
  [][] [][][]\T1/futs/m/it/8 "Soci, ami-ci, com-pa-gni, so-cia-li-sti, del-la so-cie-tà, del-la fra-tel-lan-za,
  []
 
 
-Underfull \hbox (badness 5622) in paragraph at lines 638--674
+Underfull \hbox (badness 5622) in paragraph at lines 6--42
 \T1/futs/m/n/10 Una se-ra, du-ran-te l'as-ses-so-ra-to, si re-cò a ca-sa, co-me
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--674
+Underfull \hbox (badness 10000) in paragraph at lines 6--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--674
+Underfull \hbox (badness 10000) in paragraph at lines 6--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--674
+Underfull \hbox (badness 10000) in paragraph at lines 6--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--674
+Underfull \hbox (badness 10000) in paragraph at lines 6--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--674
+Underfull \hbox (badness 10000) in paragraph at lines 6--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--674
+Underfull \hbox (badness 10000) in paragraph at lines 6--42
 \T1/futs/m/n/10 Per sen-ti-re que-sto di-scor-so mi-gra-va-no mol-te staf-fet-te,
  []
 
@@ -3002,30 +3335,42 @@ Underfull \vbox (badness 2903) has occurred while \output is active []
 
  [91
 
+
+
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92] [93] [94
+ [92]) [93]
+\openout2 = `capitolo30.aux'.
+
+ (./capitolo30.tex [94
+
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 680--684
+Underfull \hbox (badness 10000) in paragraph at lines 6--10
 \T1/futs/m/n/10 Col suf-fra-gio elet-to-ra-le al-lar-ga-to e l'au-men-to del-la
  []
 
-[95] [96
+) [95]
+\openout2 = `capitolo31.aux'.
+
+ (./capitolo31.tex [96
+
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 691--693
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
 \T1/futs/m/n/10 i pri-gio-nie-ri at-tra-ver-so la fi-ne-stra del-l'or-to, par-la-va-no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 691--693
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
 
 
-Underfull \hbox (badness 6461) in paragraph at lines 695--706
+Underfull \hbox (badness 6461) in paragraph at lines 11--22
 \T1/futs/m/n/10 Partito che fu l'av-vo-ca-to, que-sto pre-to-re cer-to Amar..
  []
 
@@ -3051,66 +3396,76 @@ Missing character: There is no ” in font futri8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100] [101] [102
+ [100]) [101]
+\openout2 = `capitolo32.aux'.
 
-] [103] [104
+ (./capitolo32.tex [102
+
+
+
+]) [103]
+\openout2 = `capitolo33.aux'.
+
+ (./capitolo33.tex [104
+
+
 
 ]
 Missing character: There is no ‘ in font futri8t!
 Missing character: There is no ‘ in font futri8t!
 Missing character: There is no ‘ in font futri8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--816
+Underfull \hbox (badness 10000) in paragraph at lines 6--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--816
+Underfull \hbox (badness 10000) in paragraph at lines 6--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--816
+Underfull \hbox (badness 10000) in paragraph at lines 6--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--816
+Underfull \hbox (badness 10000) in paragraph at lines 6--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--816
+Underfull \hbox (badness 10000) in paragraph at lines 6--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--816
+Underfull \hbox (badness 10000) in paragraph at lines 6--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--816
+Underfull \hbox (badness 10000) in paragraph at lines 6--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--816
+Underfull \hbox (badness 10000) in paragraph at lines 6--62
 
  []
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 760--816
+Underfull \hbox (badness 5711) in paragraph at lines 6--62
 \T1/futs/m/n/10 Negli ul-ti-mi an-ni ave-va do-vu-to pren-de-re uno scri-va-no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--816
+Underfull \hbox (badness 10000) in paragraph at lines 6--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--816
+Underfull \hbox (badness 10000) in paragraph at lines 6--62
 
  []
 
@@ -3123,13 +3478,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [106]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107] [108]
-Underfull \hbox (badness 5231) in paragraph at lines 822--840
+ [107]) [108]
+\openout2 = `capitolo34.aux'.
+
+ (./capitolo34.tex
+Underfull \hbox (badness 5231) in paragraph at lines 6--24
 \T1/futs/m/n/10 Il me-stie-re pe-rò si ve-de che vuo-le la sua par-te nel-la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--840
+Underfull \hbox (badness 10000) in paragraph at lines 6--24
 
  []
 
@@ -3138,21 +3496,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [109
 
+
+
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110] [111] [112
+ [110]) [111]
+\openout2 = `capitolo35.aux'.
+
+ (./capitolo35.tex [112
+
+
 
 ]
 Missing character: There is no ‘ in font futri8t!
 Missing character: There is no ’ in font futri8t!
 
-Underfull \hbox (badness 4518) in paragraph at lines 846--874
+Underfull \hbox (badness 4518) in paragraph at lines 6--34
 \T1/futs/m/n/10 spal-la del-la bal-le-ri-na, e quan-do scoc-ca-va l'ul-ti-ma no-te
  []
 
 
-Underfull \hbox (badness 7649) in paragraph at lines 846--874
+Underfull \hbox (badness 7649) in paragraph at lines 6--34
 \T1/futs/m/n/10 A mez-za-not-te, ir-re-gi-men-ta-te[][][], com'e-ra-no ve-nu-te era-no
  []
 
@@ -3165,8 +3530,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [114]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [115] [116]
-Underfull \hbox (badness 10000) in paragraph at lines 880--894
+ [115]) [116]
+\openout2 = `capitolo36.aux'.
+
+ (./capitolo36.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--20
 
  []
 
@@ -3175,23 +3543,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [117
 
-] [118]
-Underfull \hbox (badness 10000) in paragraph at lines 900--912
+
+
+]) [118]
+\openout2 = `capitolo37.aux'.
+
+ (./capitolo37.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--912
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
 
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 900--912
+Underfull \hbox (badness 7759) in paragraph at lines 6--18
 \T1/futs/m/n/10 Il let-to-re po-trà be-ne im-ma-gi-na-re i tri-sti pen-sie-ri che
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 900--912
+Underfull \hbox (badness 4316) in paragraph at lines 6--18
 \T1/futs/m/n/10 In trat-to-ria tro-va-ro-no un'or-gia in-fer-na-le a ban-chet-to di
  []
 
@@ -3200,13 +3573,18 @@ Underfull \vbox (badness 7777) has occurred while \output is active []
 
  [119
 
-] [120]
-Underfull \hbox (badness 4254) in paragraph at lines 918--943
+
+
+]) [120]
+\openout2 = `capitolo38.aux'.
+
+ (./capitolo38.tex
+Underfull \hbox (badness 4254) in paragraph at lines 6--31
 \T1/futs/m/n/10 Apriamo una pa-ren-te-si per un fat-to cu-rio-so. Ro-dol-fo,
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 918--943
+Underfull \hbox (badness 6063) in paragraph at lines 6--31
 \T1/futs/m/n/10 col-let-to-re po-sta-le, co-no-sce-va la cal-li-gra-fia di tut-ti, era
  []
 
@@ -3215,37 +3593,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [121
 
+
+
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [122] [123] [124
+ [122]) [123]
+\openout2 = `capitolo39.aux'.
+
+ (./capitolo39.tex [124
+
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 951--962
+Underfull \hbox (badness 10000) in paragraph at lines 6--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 951--962
+Underfull \hbox (badness 10000) in paragraph at lines 6--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 951--962
+Underfull \hbox (badness 10000) in paragraph at lines 6--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 951--962
+Underfull \hbox (badness 10000) in paragraph at lines 6--17
 
  []
 
-[125] [126
+) [125]
+\openout2 = `capitolo40.aux'.
+
+ (./capitolo40.tex [126
+
+
 
 ]
 Missing character: There is no ‘ in font futr8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 968--979
+Underfull \hbox (badness 10000) in paragraph at lines 6--17
 
  []
 
@@ -3254,15 +3644,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [127]
 File: images/Lisco.jpg Graphic file (type QTm)
- <use  "images/Lisco.jpg" > [128] [129] [130
+ <use  "images/Lisco.jpg" >) [128] [129]
+\openout2 = `capitolo41.aux'.
+
+ (./capitolo41.tex [130
+
+
 
 ]
-Underfull \hbox (badness 6758) in paragraph at lines 995--1003
+Underfull \hbox (badness 6758) in paragraph at lines 6--14
 \T1/futs/m/n/10 L'applicazione al-lo stu-dio, il mal trat-ta-men-to od al-tro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 995--1003
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
 \T1/futs/m/n/10 Avendo sot-to la sua ca-sa il no-stro av-vo-ca-to, esi-le,
  []
 
@@ -3272,24 +3667,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [131]
 File: images/Capelli_Avvocato.jpg Graphic file (type QTm)
  <use  "images/Capelli_Avvocato.jpg" > [132]
-Underfull \hbox (badness 10000) in paragraph at lines 1019--1026
+Underfull \hbox (badness 10000) in paragraph at lines 30--37
 \T1/futs/m/n/10 Tipo cu-rio-so, si cre-de-va bel-lo ir-re-si-sti-bi-li al-le don-ne.
  []
 
 
-Underfull \hbox (badness 7504) in paragraph at lines 1019--1026
+Underfull \hbox (badness 7504) in paragraph at lines 30--37
 \T1/futs/m/n/10 Al no-stro cau-si-di-co cad-de il mon-do ad-dos-so e cre-dè
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1019--1026
+Underfull \hbox (badness 10000) in paragraph at lines 30--37
 
  []
 
 [133] [134]
 Missing character: There is no ‘ in font futri8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1047--1067
+Underfull \hbox (badness 10000) in paragraph at lines 58--78
 
  []
 
@@ -3299,118 +3694,192 @@ File: images/Capelli_mangione.jpg Graphic file (type QTm)
 File: images/"Gioti".jpg Graphic file (type QTm)
  <use  "images/"Gioti".jpg" >
 File: images/Gioti2.jpg Graphic file (type QTm)
- <use  "images/Gioti2.jpg" > [138] [139] [140
+ <use  "images/Gioti2.jpg" >) [138] [139]
+\openout2 = `capitolo42.aux'.
+
+ (./capitolo42.tex [140
+
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1103--1148
+Underfull \hbox (badness 10000) in paragraph at lines 6--51
 
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 1103--1148
+Underfull \hbox (badness 5446) in paragraph at lines 6--51
 \T1/futs/m/it/10 In una zi-ru-de-la stam-pa-ta al-la mac-chi-na ver-so il 1880
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 1103--1148
+Underfull \hbox (badness 6876) in paragraph at lines 6--51
 \T1/futs/m/it/10 e at-tri-bui-ta al mae-stro Ca-stel-la-ni ec-co com'e-ra di-pin-to
  []
 
 Requested font "futri8t" at 9.0pt
  -> /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
 [141]
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1149
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1149
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1149
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 [142]
 File: images/lettera.jpg Graphic file (type QTm)
- <use  "images/lettera.jpg" > [143] [144]
-File: images/FabbriCesare.jpeg Graphic file (type QTm)
- <use  "images/FabbriCesare.jpeg" >
-Underfull \hbox (badness 10000) in paragraph at lines 1163--1192
+ <use  "images/lettera.jpg" >) [143] [144]
+\openout2 = `capitolo43.aux'.
+
+ (./capitolo43.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1163--1192
+Underfull \hbox (badness 10000) in paragraph at lines 6--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1163--1192
+Underfull \hbox (badness 10000) in paragraph at lines 6--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1163--1192
+Underfull \hbox (badness 10000) in paragraph at lines 6--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1163--1192
+Underfull \hbox (badness 10000) in paragraph at lines 6--23
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 6--23
 
- [145
+ []
+
+[145
+
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1193--1196
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-No file Personaggi.ind.
+File: images/FabbriCesare.jpeg Graphic file (type QTm)
+<use  "images/FabbriCesare.jpeg" >
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
-Underfull \hbox (badness 4805) in paragraph at lines 1205--1211
+ []
+
+) [146]
+Underfull \hbox (badness 4805) in paragraph at lines 91--96
 \T1/futs/m/n/10 ag-giun-gen-do even-tua-li fo-to-gra-fie e la fon-te che mi ha
  []
 
-No file Luoghi.ind.
+[147
 
-Underfull \hbox (badness 4805) in paragraph at lines 1216--1220
+
+] [148
+
+]
+./book.tex:96: Undefined control sequence.
+<argument> \imki@jobname 
+                         -Personaggi.ind
+l.96 \printindex[Personaggi]
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./book.tex:96: Undefined control sequence.
+<write> No file \imki@jobname 
+                              -Personaggi.ind.
+l.96 \printindex[Personaggi]
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+No file -Personaggi.ind.
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
+\T1/futs/m/n/10 Di se-gui-to ri-por-to i luo-ghi ri-co-no-sciu-ti più ri-le-van-ti,
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 103--106
 \T1/futs/m/n/10 ag-giun-gen-do even-tua-li fo-to-gra-fie e la fon-te che mi ha
  []
 
-(/Users/Andraghetti/Documents/mingazzi/.texpadtmp/book.lof)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[149
 
- [146] [147]
+] [150
+
+]
+./book.tex:106: Undefined control sequence.
+<argument> \imki@jobname 
+                         -Luoghi.ind
+l.106 \printindex[Luoghi]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./book.tex:106: Undefined control sequence.
+<write> No file \imki@jobname 
+                              -Luoghi.ind.
+l.106 \printindex[Luoghi]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+No file -Luoghi.ind.
 \tf@toc=\write8
 \openout8 = `book.toc'.
 
-\tf@lof=\write9
-\openout9 = `book.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1226.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1226.
- (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/book.aux (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Copertina.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Dedica.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Indice.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Biografia.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Prefazione.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/CriteriTrascrizione.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1226.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1226.
+Package imakeidx Warning: Remember to run xelatex again after calling
+(imakeidx)                `splitindex' and processing the indices.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
+(/Users/Andraghetti/Documents/mingazzi/.texpadtmp/book.aux (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Copertina.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Dedica.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Indice.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Biografia.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/Prefazione.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/CriteriTrascrizione.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo1.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo2.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo3.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo4.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo5.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo6.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo7.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo8.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo9.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo10.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo11.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo12.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo13.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo14.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo15.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo16.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo17.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo18.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo19.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo20.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo21.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo22.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo23.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo24.aux)
+(/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo25.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo26.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo27.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo28.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo29.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo30.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo31.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo32.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo33.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo34.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo35.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo36.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo37.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo38.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo39.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo40.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo41.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo42.aux) (/Users/Andraghetti/Documents/mingazzi/.texpadtmp/capitolo43.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 111.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48428 strings out of 493632
- 934312 string characters out of 6144722
- 980973 words of memory out of 5000000
- 51204 multiletter control sequences out of 15000+600000
- 111338 words of font info for 105 fonts, out of 8000000 for 9000
+ 49079 strings out of 493632
+ 953221 string characters out of 6144722
+ 1033271 words of memory out of 5000000
+ 51548 multiletter control sequences out of 15000+600000
+ 115426 words of font info for 107 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  69i,13n,98p,10430b,624s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/Andraghetti/Documents/mingazzi/.texpadtmp/book.pdf (147 pages).
+Output written on /Users/Andraghetti/Documents/mingazzi/.texpadtmp/book.pdf (150 pages).
