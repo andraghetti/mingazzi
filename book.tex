@@ -1,15 +1,12 @@
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	DOCUMENT CONFIGURATIONS AND INFORMATION
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \documentclass[10pt]{memoir} % Font size
 
-%\makeindex
-\onecolindextrue
-
-\makeindex
 \makeindex[name=Personaggi]
 \makeindex[name=Luoghi]
+\onecolindextrue
 
 \include{structure}
 
@@ -17,104 +14,27 @@
 \author{Lorenzo Andraghetti} % Author
 \newcommand{\edition}{Prima Edizione} % Book edition
 
-%-------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \begin{document}
-%-------------------------------------------------------------------------------
-%	TITLE PAGE
-%-------------------------------------------------------------------------------
 
-\thispagestyle{empty} % Suppress page numbering
-\ThisCenterWallPaper{1.12}{Mingazzi.jpg} % Add the background image, the first argument is the scaling - adjust this as necessary so the image fits the entire page
-\HUGE
-\begin{tikzpicture}[remember picture,overlay]
-\node [rectangle, rounded corners, fill=white, opacity=0.75, anchor=south west, minimum width=4.5cm, minimum height=8.0cm] (box) at (-0.5,-12.8) (box){}; % White rectangle - "minimum width/height" adjust the width and height of the box; "(-0.5,-10)" adjusts the position on the page
-\node[anchor=west, color01, xshift=-1.8cm, yshift=-0.5cm, text width=2cm, font=\sffamily\scriptsize] at (box.north){\edition}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
-\node[anchor=west, color01, xshift=-1.8cm, yshift=-2.2cm, text width=4cm, font=\sffamily\bfseries\scshape\Large] at (box.north){Storielle Alfonsinesi}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
-\node[anchor=west, color01, xshift=-1.8cm, yshift=-3.3cm, text width=2.2cm, font=\sffamily\bfseries\scshape] at (box.north){\\ di\\}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
-\node[anchor=west, color01, xshift=-1.8cm, yshift=-4.5cm, text width=2.8cm, font=\sffamily\bfseries\scshape\Large] at (box.north){Stefano \\Mingazzi}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
-\node[anchor=west, color01, xshift=-1.8cm, yshift=-7.0cm, text width=2.9cm, font=\sffamily\bfseries] at (box.north){Lorenzo\\ Andraghetti}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
-\end{tikzpicture}
-
-\newpage % Make sure the following content is on a new page
-\normalsize
-
-%-------------------------------------------------------------------------------
-%	TABLE OF CONTENTS
-%-------------------------------------------------------------------------------
-\renewcommand{\cftchapterdotsep}{\cftdotsep}
-\setpnumwidth{3em}
-\setrmarg{4em}
-\tableofcontents % Prints the table of contents
-
-%-------------------------------------------------------------------------------
-%	INTRODUCTION SECTION
-%-------------------------------------------------------------------------------
-
+\include{Copertina}
 \chapterstyle{default}
 
-\chapter*{}
+\cleardoublepage
+\include{Dedica}
+\cleardoublepage
+\pagestyle{plain}\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ #1}{}} 
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}  
 
-\emph{Dedicato a mio nonno Elio Marini, che ha preservato i manoscritti di Stefano Mingazzi, e a mia nonna Mariannina Gagliardi, che mi ha tramandato le sue memorie.\\}
-\\
-\\
-\rightline{\Huge\textcal{Lorenzo Andraghetti}}
-\normalsize
+\include{Indice}
 
-
-\frontmatter
-%-------------------------------------------------------------------------------
-%	BIOGRAFIA
-%-------------------------------------------------------------------------------
-
-%SISTEMARE, prima prefazione e poi biografia?
-
-\chapter*{Biografia}
-Stefano Mingazzi nacque ad Alfonsine il 3 agosto 1880 da Natale Mingazzi (1841 - 1918) e Mariannina Gagliardi (1860 - 1882), sorella di Luigi Gagliardi, un mio trisavolo. Fu un ricco possidente e fu fascista, non convinto, ma per convenienza. Abitò in Via Reale, all'altezza dell'attuale villa Minguzzi, nella casa appartenuta a suo padre Natale e a suo nonno Fedele. Possedeva un saponificio, vicino al suo palazzo, munito di ciminiera. A fianco al palazzo Mingazzi, vi era l'oratorio padronale San Vincenzo, ancora oggi esistente e chiamato anche Sant'Apollonia per via del quadro raffigurante l'omonima santa all'interno.
-Stefano Mingazzi aveva possedimenti nel comacchiese, studiò i territori limitrofi e si appassionò all'ambito della bonifica. Collezionò molte cartine geografiche e molti libri relativi all'argomento che costituirono la libreria personale di Mingazzi. Oggi è conservata in parte nella Biblioteca Comunale di Ferrara e in parte nella Biblioteca Classense di Ravenna.
-Attorno ai 50 anni si sposò con Amalia Isani, maestra elementare. Siccome non ebbero figli, l'erede biologico di Mingazzi diventò il cugino, Romano Gagliardi. In seguito a litigi di origine sconosciuta e interni alla famiglia, avvenuti all'inizio della seconda guerra mondiale, Stefano Mingazzi scrisse un testamento in cui nominava l'Istituto dei Ciechi di Bologna come erede universale di tutte le sue proprietà. La scelta dell'istituto è dovuta al fatto che la nonna di Mingazzi, Andrea Bagnara ved. Gagliardi, morì cieca e sola. Alla fine della guerra, i conflitti interni alla famiglia terminarono ed i buoni rapporti furono ben risanati. Mingazzi tentò più volte di andare a Ravenna per cambiare il testamento, ma essendo stato fascista, il CLN gli impedì di andare a Ravenna per tempi prolungati e lo obbligò a firmare tutti i giorni presso la sede. In questo modo gli fu impedito di cambiare testamento e venne ucciso prima di riuscirci.
-
-\noindent Il 5 maggio 1945, Mingazzi era già nel suo letto (erano le 11:30), quando delle persone in divisa bussarono. Aldo Lucherini, il dottore che aveva il suo ambulatorio nel palazzo Mingazzi, credendo vi fosse bisogno di una visita, aprì. Le persone in divisa chiesero di Mingazzi per portarlo a Ravenna per un controllo, il quale si vestì e andò con loro. Queste persone si erano presentate con un autocarro sul quale vi erano l'industriale Giuseppe Marini, Corrado Santoni e Giannino Santoni, già prelevati.
-
-\noindent Nessuno saprà più nulla dei quattro fino al settembre del 1959 quando un contadino, durante i lavori di aratura del suo campo in zona Passetto, vide apparire tra la terra dei resti umani. Erano le ossa appartenute a quattro persone, i cui crani erano bucati dal colpo di un proiettile all’altezza della nuca. Furono trovati anche bossoli di calibro 9 e pezzi di filo di ferro usato per legare le mani ai sequestrati. I famigliari dei quattro prelevati nel maggio del 1945 riconobbero i loro cari da brandelli di vestiti e altri oggetti
-
-
-%-------------------------------------------------------------------------------
-%	PREFAZIONE 
-%-------------------------------------------------------------------------------
-
-\chapter*{Prefazione}
-L'alone di mistero che avvolgeva la morte di Mingazzi mi appassionò a tal punto da spingermi a cercare di scoprire sempre più dettagli sulla storia della mia famiglia e del mio paese. Dopo la morte di mio nonno perlustrai ogni singolo centimetro del suo studio, in cui trovai dei manoscritti. Preso coscienza di ciò che rappresentavano, scelsi di condividerli con il mio paese.
-\\Questi manoscritti trattano di storielle o meglio di personaggi particolari alfonsinesi. Per la maggior parte sono prese in giro di alfonsinesi realmente esistiti, mentre altre sono veri e propri scorci di vita alfonsinese dell'800 e del '900. A giudicare dal numero delle storielle, Mingazzi iniziò a scriverle pochi anni prima della fine della guerra. Nel leggerle, ci si accorgerà che i primi capitoli sono più dettagliati e risalenti al periodo ottocentesco, mentre le ultime sono più semplici, meno dettagliate e ambientate nel novecento. Questo, considerando la data di nascita di Mingazzi, fa pensare che le storielle gli siano state raccontate dal padre, o da persone più anziane di lui. Inoltre le ultime, benché siano presenti nell'indice, non sono mai state scritte per ovvi motivi. Ho deciso quindi di trascrivere tutte le storielle e di commentarle attingendo informazioni dal sito di Luciano Lucci \emph{alfonsinemonamour.racine.ra.it}, dal libro di Romano Pasi, \emph{Storia di Alfonsine} e dal libro di Giovanni e Mariafrancesca Zanzi \emph{Le Alfonsine il volto e l'anima}. Benché siano storielle sciocche, presentano parecchi dettagli dell'Alfonsine prebellica e della vita di fine'800 e inizio '900 che sono, a mio avviso, \emph{inediti} se così si può dire.
-
-%-------------------------------------------------------------------------------
-%	CRITERI DI TRASCRIZIONE
-%-------------------------------------------------------------------------------
-\chapter*{Criteri di trascrizione}
-La buona calligrafia di Mingazzi ha permesso una facile trascrizione e una discreta comprensione dei concetti che voleva scrivere.\:Tuttavia il testo contiene alcuni errori grammaticali e frasi poco chiare che non permettono la comprensione dell'elemento comico presente in ogni capitolo. Ho scelto quindi di riportare un consistente numero di note a piè di pagina per permettere la comprensione del testo e per arricchire la lettura con curiosità riguardanti i personaggi e i luoghi presentati. Consiglio fortemente di utilizzare queste note per meglio comprendere il testo. Il testo è stato riportato fedelmente dai manoscritti, ma ho apportato alcune modifiche al fine di una lettura più scorrevole. Per quanto riguarda i titoli dei capitoli ho voluto mantenere quelli dell'indice che si trova all'inizio dei sei quaderni. Siccome in alcuni capitoli vi sono dei sottocapitoli, ho separato questi da titoletti che non erano presenti nel testo originale. \newpage
-Di seguito una foto dell'indice originale:\\
-\begin{figure}[H]
-\begin{center}
-\vspace{-20pt}
-   \includegraphics[height=0.88\textheight]{"indice".jpeg}\\
-  \end{center}
-\end{figure}
-Il dialetto scritto da Mingazzi è vistosamente approssimativo: spesso scrive in modi diversi una stessa parola e spesso dimentica accenti necessari per la comprensione. D'altronde è risaputo che il dialetto romagnolo è una lingua facile da parlare ma di difficile scrittura. Per questo motivo ho aggiunto un minimo di punteggiatura per una buona comprensione, senza però alterare le parole originali, in modo da osservare eventuali diversità tra il dialetto odierno e quello di un tempo. Voglio precisare che molte delle traduzioni in italiano delle frasi in romagnolo, sono state date direttamente da Mingazzi nel testo, tra parentesi. Mi sono limitato a riportare queste traduzioni, tali e quali, nelle note. Per quanto riguarda la punteggiatura, ho scelto di mantenere le virgole nelle posizioni originali, anche se ne risente la comprensione del testo. Una modifica consistente riguarda le citazioni di scritti e di epigrafi che ho riportato al centro della pagina, in corsivo. Per quanto riguarda i dialoghi, ho scelto di munirli di adeguata punteggiatura e di andare a capo quando necessario. Non ho mantenuto lo stesso criterio con cui Mingazzi mandava a capo il testo, ma ho diminuito il numero di questi interventi per motivi di spazio e di leggibilità.	\\\\
-A pagina \pageref{Personaggi} ho riportato i personaggi che sono riuscito a riconoscere utilizzando (per ordine di utilizzo):
-\begin{itemize}
-\item{\emph{Storia di Alfonsine}, \index[Personaggi]{Pasi Romano}Romano Pasi}
-\item{\emph{alfonsinemonamour.racine.ra.it}, Luciano Lucci\index[Personaggi]{Lucci Luciano}}
-\item{\emph{Le Alfonsine, il volte e l'anima}, Giovanni e Mariafrancesca Zanzi\index[Personaggi]{Zanzi Giovanni}\index[Personaggi]{Zanzi Mariafrancesca}}
-\item{\emph{Quaderni Alfonsinesi}, nella biblioteca Orioli di Alfonsine}
-\item{Registri delle Delibere del 1914 e del 1929, nella biblioteca Orioli di Alfonsine}
-\item{\emph{I fèt dla veriëla}, Edda Forlivesi}
-\end{itemize}
-
-A pagina \pageref{Luoghi} ho riportato delle precisazioni geografiche in particolare per quei luoghi o edifici che hanno costruito la storia alfonsinese.
+\include{Biografia}
+\include{Prefazione}
+\include{CriteriTrascrizione}
 
 % Da qui in poi necessito stile bello per i titoli:
 \chapterstyle{BlueBox}
-\mainmatter
 
 %-------------------------------------------------------------------------------
 %	CAPITOLO 1
@@ -206,7 +126,7 @@ Come rimasero per questa trovata, la \index[Personaggi]{Filomena}Filomena ed il 
 
 \chapter{Don Matteo G. e le sue prediche}
 \index[Personaggi]{Don G. Matteo}Era un buon diavolo, senza istruzione, sacerdote di Cristo e ... di Bacco, unico suo peccato.\\
-Fino alle 20,45 stava chiuso nella sua cantina a trincare di quel buon vino ... al quale aggiungeva dell'alcool, perchè era troppo debole. Dalle 20,45 diventava astemio per preparasi col digiuno alla Santa Messa del mattino successivo. Non è da tacere che andava sempre a letto in garletta\footnote{Essere "in garlèta" di solito si dice di persona allegra, un po' sopra le righe, magari per qualche bicchiere di vino in più.} orando per forza d'abitudine. \\ Celebrava continuamente la messa a San Francesco ed a Sant'Apollonia\footnote{AGGIUNGERE SAMARITANI VINCENZO San Vincenzo viene anche chiamata Santa Apollonia per il quadro dell'omonima santa che vi è all'interno. S. Vincenzo fu fabbricata circa il 1750 da Francesco de' conti Cervi Samaritani, famiglia venuta da Cremona nel 1509. Diventò un oratorio padronale di proprietà di Stefano Mingazzi. Ai giorni nostri è di proprietà dei Minguzzi.} al \index[Luoghi]{Passetto}Passetto. Le popolazioni delle due strade gli volevano molto bene, ricorrevano a lui per gli annunzi dall'altare e subito lui li accontentava coi i seguenti pistolotti\footnote{Discorso ammonitorio ed esortativo} autentici:\\
+Fino alle 20,45 stava chiuso nella sua cantina a trincare di quel buon vino ... al quale aggiungeva dell'alcool, perché era troppo debole. Dalle 20,45 diventava astemio per preparasi col digiuno alla Santa Messa del mattino successivo. Non è da tacere che andava sempre a letto in garletta\footnote{Essere "in garlèta" di solito si dice di persona allegra, un po' sopra le righe, magari per qualche bicchiere di vino in più.} orando per forza d'abitudine. \\ Celebrava continuamente la messa a San Francesco ed a Sant'Apollonia\footnote{AGGIUNGERE SAMARITANI VINCENZO San Vincenzo viene anche chiamata Santa Apollonia per il quadro dell'omonima santa che vi è all'interno. S. Vincenzo fu fabbricata circa il 1750 da Francesco de' conti Cervi Samaritani, famiglia venuta da Cremona nel 1509. Diventò un oratorio padronale di proprietà di Stefano Mingazzi. Ai giorni nostri è di proprietà dei Minguzzi.} al \index[Luoghi]{Passetto}Passetto. Le popolazioni delle due strade gli volevano molto bene, ricorrevano a lui per gli annunzi dall'altare e subito lui li accontentava coi i seguenti pistolotti\footnote{Discorso ammonitorio ed esortativo} autentici:\\
 "Popolo della \index[Luoghi]{Reale (via)}via Reale, è stato perduto un bottazzo\footnote{Direttamente spiegato dal Mingazzi nei suoi quaderni: "Per chi non lo sapesse, il bottazzo era un fustico, piccolo barile, di legno che i contadini portavano nel prato, in valle, col vino da bere durante i lavori"} pieno di vino; chi l'avesse ritrovato si beva il bottazzo e porti il vino ... " poi "No, no am so sbaglié\footnote{"No, no mi sono sbagliato"} voglio dire si beva il vino e porti il bottazzo."\\
 Altro esempio:\\
 "Popolo della \index[Luoghi]{Reale (via)}via Reale, è stata perduta una gabana\footnote{Termine dialettale per 'giacca'} color di mezzalana\footnote{Don Matteo sbaglia l'associazione colore-materiale (SISTEMARE: come potrei scriverlo?)}, chi l'avesse ritrovata la porti ...\\
@@ -221,7 +141,7 @@ Chiudiamo con un'ultima del semplicione.\\Funzionava da cappellano a \index[Luog
 Come il solito, aveva sul pomeriggio troppo brindato a Bacco e mal si reggeva in gambe.\\
 Nei pressi della \index[Luoghi]{Le Marianne}Scoperta delle Marianne, sentì la necessità di una occorrenza ... piantò l'asino della strada e si appiattì al di là di una siepe.\\
 Quel che successe si deve indovinare; l'asino fu trovato alla mattina, coi finimenti, attaccato al biroccino, dietro la porte della stalla della Chiesa a \index[Luoghi]{Savarna}Savarna, ma del padrone nulla.\\
-A mattino molto inoltrato, il prete si svegliò nel prato, dove era caduto per la solenne sbornia, perchè il sole lo martellava... riandò agli avvenimenti della sera prima e nella mente un po' rischiarata, non trovando più l'asino... lo seguì a piedi ... da buon soldato di Cristo.
+A mattino molto inoltrato, il prete si svegliò nel prato, dove era caduto per la solenne sbornia, perché il sole lo martellava... riandò agli avvenimenti della sera prima e nella mente un po' rischiarata, non trovando più l'asino... lo seguì a piedi ... da buon soldato di Cristo.
 
 %---------------------------------------------------------------------------
 %	CAPITOLO 6
@@ -261,12 +181,13 @@ Ragazza: "La s'indurmêta\footnote{Si addormenta}"\\
 \chapter{La Nuova Beccheria - avviso}
 \index[Personaggi]{Gioele}Gioele calzolaio che aveva disertato da un pezzo il dischetto\footnote{Il dischetto era il tavolino usato dai calzolai nel loro lavoro} per vivere con le bricciole della rendita degli altri: pur di non fare nulla, si peccava di essere un superuomo, un grande elettore, causidico\footnote{Chi difendeva qualcuno in giudizio senza essere avvocato}, letterato.\\
 Di tutta l'arca della sua scienza aveva solo la miseria del letterato. S'intrufava\footnote{Intrufolava} ed era un assiduo degli spettacoli pubblici, come le prove dei cavalli sullo stradone, le cause in pretura, le adunanze\footnote{Riunioni comunali} al consiglio comunale, le baruffe in piazza, il montaggio e lo smontaggio dei baracconi dei saltimbanchi e cose di quanto può occorrere a chi non ha né arte né parte ad uno sfaccendato per ingannare il tempo ed emergere\footnote{[...]e tutto ciò che può servire ad uno sfaccendato, che non ha nessun lavoro, per passare il tempo.}.\\
-Un giorno gli si presenta \index[Personaggi]{Ettore Pagani "Gena" (macellaio)}Ettore Pagani\footnote{La memoria storica vuole che ad Alfonsine vi sia sempre stata una macelleria di "Gena", appunto Pagani. Alla morte del titolare, forse un discendente di Ettore, oppure Ettore stesso, fu gestita dalla figlia. SISTEMARE} e lo prega di fargli un avviso al pubblico perchè vuole aprire una nuova beccheria. \\
+Un giorno gli si presenta \index[Personaggi]{Ettore Pagani "Gena" (macellaio)}Ettore Pagani\footnote{La memoria storica vuole che ad Alfonsine vi sia sempre stata una macelleria di "Gena", appunto Pagani. Alla morte del titolare, forse un discendente di Ettore, oppure Ettore stesso, fu gestita dalla figlia. SISTEMARE} e lo prega di fargli un avviso al pubblico perché vuole aprire una nuova beccheria. \\
 Il nostro \index[Personaggi]{Gioele}Gioele trionfante, per l'onore e col miraggio forse del guadagno di una bracciola, si prende \index[Personaggi]{Ettore Pagani "Gena" (macellaio)}Pagani e lo porta in farmacia, dove era di casa un po', e dove trovava gratis, carta, penna e calamaio e persone che l'attorniavano per ridere alle sue spalle.\\
 \\
 Ecco l'Avviso:
 
 \textcal{ \Huge
+\vspace{-1cm}
 \begin{center}
 	Avviso
 \end{center}
@@ -280,10 +201,10 @@ Ecco l'Avviso:
 \end{center}
 } \normalsize \normalfont 
 
-Letto forte a chiara voce, provocò risata.\\
+\noindent Letto forte a chiara voce, provocò risata.\\\\
 \index[Personaggi]{Vincenzo della Borghina} Vincenzo della Borghina s'azzardò di dire: "la carne di bue ... è al fieno \footnote{SISTEMARE: non capisco il senso. Forse intendeva dire che la carne al fieno era pregiata e dire "didietro" la screditava. Non so.}"\\
 \index[Personaggi]{Gioele}Gioele: "Dam a qua e manifest. E poi imbezèl a vut ca dèga ‘carne da cul'?\footnote{Dammi qua il manifesto. E poi, imbecille, vuoi che dica ‘carne da culo'?}". \\Aspetta.\\Prese il manifesto corresse borbottando "Sumàr a vit ac azonz ‘ora'\footnote{"Somaro, vedi, aggiungo ‘ora'"}
-
+\newpage
 \textcal{ \Huge
 \begin{center}
 	Avviso
@@ -310,7 +231,7 @@ Il signor C. B. era uno stimato e ricco negoziante. Si deve anche dire che imper
 Rimasto vedovo, senza troppa commozione seppe tessere il seguente elogio funebre in lode della sua metà:
 "Va, o mia Antonia, quando venisti in casa mia, mi portasti mille scudi ed ora con venticinque paoli\footnote{1 scudo = 10 paoli = 100 baiocchi} ti mando al cimitero."\\
 \subsection{Le votazioni plebiscitarie}
-Come partito politico tendeva al papalino, e non voleva sentire troppo parlare di liberali, che gli disturbavano il negozio. Tuttavia sapeva stare molto tra color che son sospesi\footnote{Sapeva stare con persone che non avevano rilevanti tendenze politiche} e non si sbilanciava molto, anche perchè le sue idee erano in minoranza coi suoi accoliti.\\
+Come partito politico tendeva al papalino, e non voleva sentire troppo parlare di liberali, che gli disturbavano il negozio. Tuttavia sapeva stare molto tra color che son sospesi\footnote{Sapeva stare con persone che non avevano rilevanti tendenze politiche} e non si sbilanciava molto, anche perché le sue idee erano in minoranza coi suoi accoliti.\\
 Era solito andare nel ferrarese col biroccio per vendere molte botti d'acquavite. In occasione del plebiscito del 1860\footnote{Il 21 ottobre del 1860 si svolse il plebiscito per l’annessione del Regno delle Due Sicilie al Regno di Sardegna. Quel giorno il 79\% degli aventi diritto al voto si espressero per il Sì.} i conti Fuschini, accesi liberali, seppero che il Signor C. B. era tornato allora dal ferrarese ed ansiosi di notizie gli mandarono un biglietto concepito:\\
 "Diteci come sono andate le votazioni nel ferrarese."\\
 Il Signor C. non volle sbilanciarsi e rispose:\\
@@ -345,7 +266,7 @@ Infatti leggiamo\footnote{Anticipo ai lettori che le firme sopracitate, sono app
 	\centerline{\index[Personaggi]{Poletti Raffaele (consigliere comunale)}Paffaele Roletti}
 }\\ \\
 \normalfont
-firma che valeva molto su di una cambiale\footnote{Nel diritto italiano, è un titolo di credito la cui funzione tipica è quella di rimandare il pagamento di una somma in denaro.} anche perchè l'artefice prima di stamparla aveva bisogno di provare molte paia di occhiali, poi accusava di non trovarne un paio adatti, poi la penna si spuntava, la carta si forava, l'inchiostro macchiava, non scorreva, mezz'ora prendeva la posizione adatta, e racconti della caduta del papa tra una sillaba e l'altra, quella della cacciata dei carabinieri del papa ecc. ecc. e finalmente dalle 9 alle 12 poteva uscire la gran firma. \\
+firma che valeva molto su di una cambiale\footnote{Nel diritto italiano, è un titolo di credito la cui funzione tipica è quella di rimandare il pagamento di una somma in denaro.} anche perché l'artefice prima di stamparla aveva bisogno di provare molte paia di occhiali, poi accusava di non trovarne un paio adatti, poi la penna si spuntava, la carta si forava, l'inchiostro macchiava, non scorreva, mezz'ora prendeva la posizione adatta, e racconti della caduta del papa tra una sillaba e l'altra, quella della cacciata dei carabinieri del papa ecc. ecc. e finalmente dalle 9 alle 12 poteva uscire la gran firma. \\
 Altra firma era
 \textcal {\\\\
 \Huge
@@ -406,7 +327,7 @@ Un vagheggino\footnote{Corteggiatore fatuo e galante} del paese pretendeva una r
 \subsection{I paletti bianchi delle strade}
 Per chi non lo sapesse sembrerebbe un'invenzione dell'Azienda Stradale, dovuta allo sviluppo automobilistico, ma così non è. Sotto al governo papale verso il 1850, nella magistratura comunale di Alfonsine si discuteva e si doveva approvare la prima illuminazione pubblica.\\
 Il membro \index[Personaggi]{Bagnara Giovanni}Bagnara\footnote{Giovanni Bagnara fu più volte membro della giunta comunale. Fu il padre di Cassiano, il quale fu vittima di un atto di brigantaggio e fu ucciso. Erano i proprietari della casa di Vincenzo Monti} fece la proposta di imbiancare le teste dei pali stradali, perché ciascuno rincasando alla sera avesse un punto di mira per seguire la buona strada.\\
-Per molto tempo tutti risero della trovata, ma ora perchè è morto da 70 anni... il mondo deve dargli ragione.
+Per molto tempo tutti risero della trovata, ma ora perché è morto da 70 anni... il mondo deve dargli ragione.
 
 \subsection{Le ragazze non devono saper scrivere}
 Il \index[Personaggi]{Bagnara Giovanni}Bagnara aveva profondamente radicate le sue convinzioni morali e politiche.\\
@@ -606,7 +527,7 @@ Questo capitolo è presente nell'indice, ma non vi è nei manoscritti. Non so se
 
 \chapter{I batocchi delle campane}
 Verso il 1870 serpeggiava in paese ancora la lotta dei liberali contro il partito papalino, che aveva il suo esponente nei preti. I preti erano i più forti di numero , perché contavano sull'elemento femminile, sui contadini, i quali mal sopportavano le ultime schioppettate della guerra d'indipendenza nazionale, e la leva nuovamente introdotta.\\
-Per gente che fugge il rumore e bada solamente ai propri interessi, le vecchie idee, solo perchè contrarie al nuovo ordine erano un vangelo, la sacrestia e la chiesa el tempio della ribellione contro le novità. Bastava un rintocco di campana per radunare il popolo tutto a dispetto dell'elemento liberale. \\
+Per gente che fugge il rumore e bada solamente ai propri interessi, le vecchie idee, solo perché contrarie al nuovo ordine erano un vangelo, la sacrestia e la chiesa el tempio della ribellione contro le novità. Bastava un rintocco di campana per radunare il popolo tutto a dispetto dell'elemento liberale. \\
 Si era giunti al carnevale, l'elemento liberale voleva scialarsela\footnote{Godersela, spassarsela}, ballare anche la seconda mezzanotte del martedì grasso che cadeva in Quaresima. Dal canto della chiesa come contromisura erano state chiamate ed in funzione le sacre missioni. Questo fu il colmo! Le ragazze morigerate allora disertarono i festini, schivarono i fidanzati o come suol dirsi i filarini, che forse avevano pensato per un anno di avere nelle braccia le loro belle, almeno nel ballo. Maledette campane! Oltre che stordire gli abitué della piazza chiamavano alla chiesa ed alle prediche il bel sesso, e popolo alla mattina, pomeriggio, sera, con relative confessioni, comunioni... per tenerle sempre in devozione ed in santità lontano dai peccati. \\
 Figurate l'ossessione degli irati filarini-liberali a... spasso per la forzata disoccupazione.\\
 Il vecchio campanaro \index[Personaggi]{Barabisa}Barabisa come sempre, va a suonare l'Ave Maria del giorno, ma tira, tira, credeva di avere perduto la forza e di non suonare le campane. Bisognò che rischiarasse la mente sonnolenta per convincersi... di essere ancora lui... in forza.\\
@@ -620,7 +541,7 @@ Per quel carnevale... fu una quaresima per gli innamorati\footnote{Mentre le cam
 %-------------------------------------------------------------------------------
 
 \chapter{I funerali di 1ª, 2ª, 3ª, 4ª classe}
-Nella chiesa parrocchiale avevano sede le confraternite femminili e maschili che erano le più importanti. Vi era la compagnia del sacco, perchè i suoi membri portavano una cappa con cappuccio nero e neanche la punta del naso lasciavano scorgere. La compagnia di S. Antonio, con saio bianco e mantellina verde.	\\
+Nella chiesa parrocchiale avevano sede le confraternite femminili e maschili che erano le più importanti. Vi era la compagnia del sacco, perché i suoi membri portavano una cappa con cappuccio nero e neanche la punta del naso lasciavano scorgere. La compagnia di S. Antonio, con saio bianco e mantellina verde.	\\
 Altre confraternite tra le quali quella del SS. Sacramento i cui membri portavano la cappa bianca e sopra una mantellina rossa. Qualche vecchio esemplare si può ancora vedere di quest'ultima compagnia, tra i vecchi e nelle grandi funzioni religiose.\\
 La compagnia di S. Antonio possedeva le bare per il trasporto a spalla dei defunti. I confratelli non pagavano nulla per i loro funerali: pensava la compagnia. La compagnia poi mandava ai funerali dei confratelli una sua rappresentanza numerosa vestita dei caratteristici costumi e con gonfalone\footnote{Stendardo della confraternita}.\\
 Il funerale si disponeva con chierico e crocifisso in testa e clero. Poi venivano i confratelli in due fila, ai margini stradali, con torcia in mano e oranti. In mezzo della strada erano i gonfaloni delle confraternite. Poi la bara ed i portatori, sempre in numero di otto, 4 portatori e 4 ricambi. E dietro i parenti, amici, ecc. La bara nuova era la migliore con un grande panno nero arabescato, con teschio tibie ecc, ed era riservata ai funerali di 1ª classe. \\
@@ -689,7 +610,7 @@ Non poté mai scoprire la burla altrimenti permaloso com'era non ce l'avrebbe pe
 %-------------------------------------------------------------------------------
 
 \chapter{Uno stronzo nella pentola}
-Il signor \index[Personaggi]{Camerani Matteo (farmacista)}Matteo C.\:.\:.\footnote{Matteo Camerani fu un farmacista e fu figlio di Giovan Antonio, governatore di Alfonsine e figlio di Maria Cristina Monti, sorella del poeta Vincenzo Monti. Può sembrare confusionaria la genealogia ma è di fatto: Matteo (fattore), Giovan Antonio (governatore), Matteo (farmacista), Giovan Antonio} aveva fatto scodellare la minestra per sé, la moglie, ed i 4 figli e con la moglie cominciarono a soffiare sulle prime cucchiaiate perchè si raffreddasse.\\
+Il signor \index[Personaggi]{Camerani Matteo (farmacista)}Matteo C.\:.\:.\footnote{Matteo Camerani fu un farmacista e fu figlio di Giovan Antonio, governatore di Alfonsine e figlio di Maria Cristina Monti, sorella del poeta Vincenzo Monti. Può sembrare confusionaria la genealogia ma è di fatto: Matteo (fattore), Giovan Antonio (governatore), Matteo (farmacista), Giovan Antonio} aveva fatto scodellare la minestra per sé, la moglie, ed i 4 figli e con la moglie cominciarono a soffiare sulle prime cucchiaiate perché si raffreddasse.\\
 I ragazzi erano a tavola meno uno, guardavano in giro e non mangiavano. Matteo, visto il posto vuoto: "Dov'è \index[Personaggi]{Camerani Giovan Antonio}Giov Antonio...?"\\
 I ragazzi zitti e poi: "Un'iè\footnote{"Non c'è"}"\\
 Matteo\index[Personaggi]{Camerani Matteo (farmacista)}, al servitore: "Galli val a ciamé, dov'è\footnote{"Vai a chiamarlo, dov'è"}"\\
@@ -714,7 +635,7 @@ Ma lo trangugiò egualmente... come ricostituente sostanzioso. I suoi clienti po
 %-------------------------------------------------------------------------------
 
 \chapter{I maestri di lingua - Araldo il Capolega B...}
-\index[Personaggi]{Lanconelli Araldo}Araldo, seduto, calvo, con la coppole sulla cervice, ben nutrito, baffi, spioventi, alla moda, era un bell'uomo. Dritto non ci stava perchè era zoppo... e così nelle concioni\footnote{Discorsi} dei repubblicani, si vestiva di nero e si metteva in evidenza nel palco accanto a \index[Personaggi]{Mirabelli Roberto (onorevole)}Mirabelli\footnote{Roberto Mirabelli, onorevole, di origine calabrese, più volte deputato di Ravenna per il PRI} o \index[Personaggi]{Mazzolani Ulderico (onorevole)}Mazzolani\footnote{Ulderico Mazzolani, onorevole repubblicano}, essendo un bel pezzo... decorativo.\\
+\index[Personaggi]{Lanconelli Araldo}Araldo, seduto, calvo, con la coppole sulla cervice, ben nutrito, baffi, spioventi, alla moda, era un bell'uomo. Dritto non ci stava perché era zoppo... e così nelle concioni\footnote{Discorsi} dei repubblicani, si vestiva di nero e si metteva in evidenza nel palco accanto a \index[Personaggi]{Mirabelli Roberto (onorevole)}Mirabelli\footnote{Roberto Mirabelli, onorevole, di origine calabrese, più volte deputato di Ravenna per il PRI} o \index[Personaggi]{Mazzolani Ulderico (onorevole)}Mazzolani\footnote{Ulderico Mazzolani, onorevole repubblicano}, essendo un bel pezzo... decorativo.\\
 Con le sue idee repubblicane non transigeva, era attaccato alla carica e fu anche assessore.\\
 Una sera, durante l'assessorato, si recò a casa, come d'abitudine all'ora di cena, del \index[Personaggi]{Meruzzi Dr. Cassiano}Dr. Meruzzi\footnote{Dottor Cassiano Meruzzi, medico condotto di Alfonsine, cugino di Cassiano Bagnara, figlio di Giovanni, proprietario della casa di Vincenzo Monti}. Poveretto non stava più nella pelle, rideva, si contorceva, faceva delle smorfie.\\
 Allora cominciò questo dialogo:\\
@@ -903,7 +824,7 @@ Col progresso e le strade migliorate, maggior movimento anche il procaccia invec
 Le tappe erano, partenza dall'osteria in \index[Luoghi]{Vincenzo Monti (piazza)}Piazza\footnote{Piazza Monti}, osteria alle \index[Luoghi]{Glorie}Glorie, Osteria a \index[Luoghi]{Mezzano}Mezzano, osteria della \index[Luoghi]{Camerlona}Camerlona, osteria e stallatico a \index[Luoghi]{Ravenna}Ravenna. Alle osterie tappe vi erano i clienti le commissioni e chi le voleva meglio raccomandare... pagava il quartino di buon vino, al pomeriggio, o l'acquavite alla mattina al procaccia.\\
 A \index[Luoghi]{Ravenna}Ravenna bisognava pure ingannare il tempo d'attesa e del riposo del ronzino... ed allora per il procaccia erano altre tappe straordinarie e bevute nelle osterie.\\
 Il povero procaccia non si poteva esimere da tante cortesie e libazioni\footnote{Offerta propiziatoria di vino}, il freddo, il caldo, gli facevano venire la necessità di mettere liquido in corpo... e se al ritorno non aveva una sbornia da cataletto.\\
-Il vecchio procaccia andò a riposo, ne fu fatto un altro giovane, ispecie perchè lo potevano vantare come astemio.\\
+Il vecchio procaccia andò a riposo, ne fu fatto un altro giovane, ispecie perché lo potevano vantare come astemio.\\
 Il mestiere però si vede che vuole la sua parte nella manifestazione della vita e così il nostro astemio diventò un forte bevitore e tutte le sere aveva i calori di una solenne sbornia.\\
 Venne la ferrovia nel 1889 ed il servizio fu attivato tra la \index[Luoghi]{Vincenzo Monti (piazza)}Piazza e la \index[Luoghi]{Stazione di Alfonsine}Stazione, invece che per \index[Luoghi]{Ravenna}Ravenna, e per quante erano le corse.\\
 Le bevute furono maggiori per equipararle alle corse... ed il protagonista era diventato un automa, sempre eccitato, sotto i fumi dell'alcool, irritato, parlava da sé, inveiva ecc.\\
@@ -999,7 +920,7 @@ Appena si sentiva il treno partire per \index[Luoghi]{Ravenna}Ravenna, sul duro 
 La gente usciva per vedere quel che succedeva... era il nostro bel tipo che ritornava dalla parte della stazione... annunziando a tutti che doveva recarsi a \index[Luoghi]{Ravenna}Ravenna, per grossi affari (che erano bugie) e che aveva perduto la corsa.\\
 Tutti ridevano... e facevano finta di compassionare la sua cattiva sfortuna... per farlo parla dei suoi molti castelli in aria... ingegnosamente architettati.\\
 Diceva di spendere quattro mila lire all'anno nella posta, allora che le cartoline postali valevano due soldi, i bolli per le lettere quattro, i telegrammi venti. Non sapeva molto di lettere, non aveva né buste, né carta intestata, non era tanto avanti col progresso... e si crede che per scrivere una cartolina dovesse ricorrere ai suoi figli. \\
-Al mattino girava tutta la piazza per mostrare la provvista in una grande sporta... perchè si sapesse come se la trattava... e per essere tenuto tra le più ricche famiglie.\\
+Al mattino girava tutta la piazza per mostrare la provvista in una grande sporta... perché si sapesse come se la trattava... e per essere tenuto tra le più ricche famiglie.\\
 Apriamo una parentesi per un fatto curioso. \index[Personaggi]{Faccani Rodolfo (collettore postale)}Rodolfo, collettore postale, conosceva la calligrafia di tutti, era scontroso e salace. Un bel giorno il nostro protocollista, innanzi alla posta, aveva cercato di radunare un crocchio di conoscenti e li teneva fermi con chiacchiere, col motivo nascosto di provare loro la sua grande attività affaristica, costrittiva. \\
 Rodolfo\index[Personaggi]{Faccani Rodolfo (collettore postale)} esce dalla posta.\\
 Il nostro .\:.\:.\: "Rodolfo, aiel gnint par me?"\footnote{"Rodolfo, c'è niente per me?"}\\
@@ -1013,7 +934,7 @@ La bella \index[Personaggi]{Bice}Bice, ridendo, rispose invece molto in disaccor
 Sempre in materia di femmine e conquiste al nostro uomo gliene capitò un'altra ancora più bella.\\
 Tra le inquiline di una casa che teneva in affitto ce n'era una molto... libera. L'intraprendente nostro uomo si vantava di averla posseduta. La femmina però gliela fece pagare a suon di denaro... mandandolo scornato\footnote{Umiliato, deriso}. Non gli pagò gli otto scudi del fitto. Così il millantatore la citò innanzi al conciliatore, che era il vecchio \index[Personaggi]{Alberani Anselmo}Alberani.\\
 Qui riferiamo il colloquio:\\
-Conciliatore: "Tu... hai citato la .\:.\:. perchè devi avere otto scudi per il fitto.\\
+Conciliatore: "Tu... hai citato la .\:.\:. perché devi avere otto scudi per il fitto.\\
 Intraprendente: "Se"\\
 Conciliatore, alla donna: "E voi che cosa dovete dire?"\\
 Donna: "Sgnor, lò, -indicando l'intraprendente- e va pu a di cun tot c'um ha .\:.\:. questa che qua un l'à da paghè"\footnote{Signore, lui, va a dire con tutti che mi ha .\:.\:. questa qui non la deve pagare!} con gesto espressivo e forte a palmo aperto sulla parte colpita...\\
@@ -1039,9 +960,9 @@ Il \index[Personaggi]{Magnanini}Magnanini aveva in parecchi una biroccia, doveva
 Dovevano dividere.\\
 Cichinoni voleva quella di sotto, perché la voleva guastare come sua legittima proprietà... sulla quale altro nulla può.
 
-%-------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	CAPITOLO 40
-%-------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \chapter{Lisco}
 Bumb... bumb... bumbum... l'è morto P\:.\:.\:. l'è morto P\:.\:.\:. bum... bum... bumbumb... ecc. col passo secco assordante di due zoccoli ferrati, si sentiva per la via. Era \index[Personaggi]{Lisco}Lisco, che passava a passo veloce per dare al paese un nuovo annunzio funebre.\\
@@ -1056,12 +977,12 @@ A chi chiedeva a Lisco, che cosa voleva dire ‘idiota', con serietà rispondeva
 Un giorno, col cappello rovesciato, gli zoccoli nei piedi e nella saccona infilato l'ombrello di tela cerata verde... battendo la sua solita musica, a \index[Luoghi]{Bologna}Bologna andò ad infilare via \index[Luoghi]{Rizzoli (via)}Rizzoli, seguito da uno stuolo di ragazzi che lo motteggiavano. La passeggiata finì, come doveva finire, fu preso dalle guardie e portato a vedere il cielo a scacchi\footnote{Portato in prigione}... per essere rimpatriato. Il bello però venne quando gli sequestrarono 12 scudi, frutto delle guardie. Montò su tutte le furie... ma le guardie sopraffecero e lo immobilizzarono... e lui ad urlare: "Lêdar dasim i mi bulèn!"\footnote{"Ladri datemi i miei soldi!"}\\
 La sua deficienza mentale, lo salvò da altre pene... ed a \index[Luoghi]{Bologna}Bologna non andò più.\\
 
-\begin{figure}[H]
-\begin{center}
-\vspace{-10pt}
-   \includegraphics[height=0.48\textheight]{"Lisco".jpg}\\
-	\emph{Lisco, ritratto da vecchio, personaggio famoso ad Alfonsine}
-  \end{center}
+ \begin{figure}[htb]
+    \centering
+    %\vspace{-0.7cm}
+    \includegraphics[height=8cm]{Lisco}
+    \caption{Lisco, ritratto da vecchio, personaggio famoso ad Alfonsine\label{fig:Lisco}}
+    %\vspace{-0.3cm}
 \end{figure}
 
 
@@ -1086,17 +1007,16 @@ No, anavoi Mambrucon\footnote{Mambrucone fu pretore ad Alfonsine. Citando Romano
 \end{center}}
 \index[Personaggi]{Capolozzo}\index[Personaggi]{Mambrucone (pretore)}
 \normalfont \normalsize
-Di lui era caratteristica la macchietta.\\
+\noindent Di lui era caratteristica la macchietta.\\
 Ecco l'uomo colto... ridotto incolto... dall'alcool.
-\begin{figure}[H]
-\begin{center}
-\vspace{-4pt}
-   \includegraphics[height=0.25\textheight]{"Capelli_Avvocato".jpg}\\
-  \end{center}
-  \vspace{-102pt}
-\end{figure}
-\newpage
-\index[Personaggi]{Capelli (protocollista)}Sotto l'altro\footnote{E ora parliamo dell'altro}. \\Per questo la gola fu fatale. I tortelli hanno ucciso Capelli, questa orrenda notizia vi dò!\\
+ \begin{figure}[htb]
+    \centering
+    %\vspace{-0.7cm}
+    \includegraphics[height=6cm]{Capelli_Avvocato}
+    %\vspace{-0.3cm}
+\end{figure}\newpage
+\index[Personaggi]{Capelli (protocollista)}
+\noindent Sotto l'altro\footnote{E ora parliamo dell'altro}. \\Per questo la gola fu fatale. I tortelli hanno ucciso Capelli, questa orrenda notizia vi dò!\\
 Tipo curioso, si credeva bello irresistibili alle donne. Permaloso, un pò tardo di comprendonio sotto lo sforzo della digestione.\\
 Offriva a tutte le belle ragazze 100 scudi per una gita... con lui a \index[Luoghi]{Ravenna}Ravenna. Distribuiva a 60 anni, alle sue dame il suo ritratto all'età di 20 anni, vestito da sottotenente, nella sua caratteristica figura. La faccia sembrava una gran luna con sopra un guscio d'ovo, che era il berretto, due baffetti spioventi alla cinese, occhini coperti da grosse palpebre, sembrava un maiale della grassa. \\
 Si riteneva molto eloquente, faceva il causidico\footnote{Avvocato da poco} in pretura ed una volta presentò una comparsa con citazioni latine... che non conosceva. Il Pretore \index[Personaggi]{De Simone (pretore)}De Simone, ebbe a dirgli: "Ecco spieghi questa..."\\
@@ -1110,7 +1030,7 @@ Giù le brache... chino il corpo in orizzontale, non arrivava ad accovacciarsi s
 Chi andava dopo di lui vedeva i segni di \index[Personaggi]{Capelli (protocollista)}Capelli
 \item[11.30]Andava alla firma, riceveva 4,5 lettere da protocollare.
 \item[12.00] a mangiare.
-\item[13.00] a fare il chilo sul sofà e respirare a due riprese, perchè troppo pieno.
+\item[13.00] a fare il chilo sul sofà e respirare a due riprese, perché troppo pieno.
 \item[13.30] per la strada presso le fruttivendole a mangiare arance, mele, mandarini, zucca cotta ecc.
 \item[14.00] all'ufficio a cominciare missive d'affari sui grandi fogli da protocollo, poi accartocciava tutto... perché sbagliava perché era troppo pieno... e non concepiva il pensiero.
 \item[17.00] (d'inverno) uscito dall'ufficio, passava a rifornirsi di cioccolatini e poi da qualche bella a farseli mangiare.
@@ -1121,11 +1041,11 @@ Chi andava dopo di lui vedeva i segni di \index[Personaggi]{Capelli (protocollis
 \item[22.00] entrato nell'osteria annusava come un cane da trifola , poi chiedeva : "Che cosa hai rimasto?"\\
 Oste: "Cappelletti, umido, arrosto, lesso."\\
 \index[Personaggi]{Capelli (protocollista)}Capelli: "Fammi vedere" poi "Quanto vuoi per tutto?"	\\ Il contratto era fatto e tutto divorato.
-\item[23.00] Chiudevano l'osteria ed il nostro uomo prendeva la via dell'amata... fino alle una,,, a fare il chilo e farsi far vento alla pancia perchè gli tirava per avere troppo mangiato...
+\item[23.00] Chiudevano l'osteria ed il nostro uomo prendeva la via dell'amata... fino alle una,,, a fare il chilo e farsi far vento alla pancia perché gli tirava per avere troppo mangiato...
 \item[1.00] tornava a casa e dava aria ai polmoni... ed alla strada... per sgonfiare la pancia. Poi a letto fino alle 8.
 \end{itemize}
 Era assiduo di tutti gli spettacoli ai quali assisteva divorandosi brustole\footnote{Semi di zucca}, caramelle, cioccolatini ecc.\\
-Credeva di conquistare le commedianti o cantanti, ronzando sempre loro intorno come un molesto bagarone\footnote{Calabrone}... Una sera il pover'uomo era a godersi uno spettacolo, seduto su una delle prime fila di sinistra del \index[Luoghi]{Baraccone (teatro)}Baraccone. Aveva mangiato più del solito, la sua testa era in confusione credendosi ammirato... (e per questo era abile perchè aveva una gran cura di mostrare alle artiste il portafoglio e di promettere molto...) ma la digestione lo disturbava molto e lo assopiva. Però non poteva né assopirsi né sedersi comodamente... era come sugli spini per la gonfiezza. Sulla fine di un atto uscì, si appressò alla siepe del \index[Luoghi]{Carraretto Venturi}Carraretto\footnote{Carraretto Venturi, il teatro fu spostato nel Carraretto Venturi (e lazarètt) già dal 1894}, ad orinare quando credé di fare uno sforzo per vuotare l'aria... ma il colpo fu tale e forte... da prendere una lombaggine\footnote{Dolore in sede lombare che si acutizza nei movimenti di flessione ed estensione del tronco} ("snestar"\footnote{Espressione dialettale per ‘colpo della straga'}) e dovettero portarlo a casa, e chiamato il povero \index[Personaggi]{Novi (dottore)}Dr. Novi e l'infermiere \index[Personaggi]{Domenico Soatti, Mingò d'Galèna (infermiere)}Mingone di Gallina, che lo sottoposero ad una iniezione calmante. \\
+Credeva di conquistare le commedianti o cantanti, ronzando sempre loro intorno come un molesto bagarone\footnote{Calabrone}... Una sera il pover'uomo era a godersi uno spettacolo, seduto su una delle prime fila di sinistra del \index[Luoghi]{Baraccone (teatro)}Baraccone. Aveva mangiato più del solito, la sua testa era in confusione credendosi ammirato... (e per questo era abile perché aveva una gran cura di mostrare alle artiste il portafoglio e di promettere molto...) ma la digestione lo disturbava molto e lo assopiva. Però non poteva né assopirsi né sedersi comodamente... era come sugli spini per la gonfiezza. Sulla fine di un atto uscì, si appressò alla siepe del \index[Luoghi]{Carraretto Venturi}Carraretto\footnote{Carraretto Venturi, il teatro fu spostato nel Carraretto Venturi (e lazarètt) già dal 1894}, ad orinare quando credé di fare uno sforzo per vuotare l'aria... ma il colpo fu tale e forte... da prendere una lombaggine\footnote{Dolore in sede lombare che si acutizza nei movimenti di flessione ed estensione del tronco} ("snestar"\footnote{Espressione dialettale per ‘colpo della straga'}) e dovettero portarlo a casa, e chiamato il povero \index[Personaggi]{Novi (dottore)}Dr. Novi e l'infermiere \index[Personaggi]{Domenico Soatti, Mingò d'Galèna (infermiere)}Mingone di Gallina, che lo sottoposero ad una iniezione calmante. \\
 Era sempre tutto gentile... per non far torto al suo budello\footnote{SISTEMARE} idem che tanto lo aiutava. Era geloso di tutti e di tutte.\\
 Il povero \index[Personaggi]{Isani Nando (farmacista)}Nando Isani, aiuto farmacista da \index[Personaggi]{Boari Attilio (farmacista)}Boari, quando lo vedeva venire serrava la bussola\footnote{Portantina} della farmacia e si nascondeva nel laboratorio.\\
 Cominciava allora la scena da ridere. \index[Personaggi]{Capelli (protocollista)}Capelli, spingeva la bussola, chiamava... strimpellava, perché si metteva in sospetto che nel retro farmacia Nando \index[Personaggi]{Isani Nando (farmacista)} avesse qualche avventura galante... e lui voleva sorprenderlo... per intimare alla femmina... amore anche per lui... \\
@@ -1146,19 +1066,18 @@ Amata: "Ma come devo fare, ci sono le baracche in mezzo e non si può vedere..."
 Capelli: "A na voi savé me, va dsò da la Pia... (al 3° piano) me a voi t'am guerda"\footnote{"Non lo voglio sapere io, va di sopra dalla Pia, io voglio che tu mi guardi"}.\\
 \newpage
 
-Ammiriamo anche noi questo pachiderma.
-\begin{figure}[H]
-\begin{center}
-\vspace{-10pt}
-   \includegraphics[height=0.9\textheight]{"Capelli_mangione".jpg}\\
-  \end{center}
+\noindent Ammiriamo anche noi questo pachiderma.
+ \begin{figure}[htb]
+    \centering
+    \includegraphics[height=12cm]{Capelli_mangione}
+    %\vspace{-0.3cm}
 \end{figure}
 
 \newpage
 Teneva regalare copia e minute\footnote{Le prime stesure provvisorie delle lettere} delle lettere amorose che riceveva, la collezione dei ricciolini... e di altri peli ancor più fini...\\
 Dopo morto si trovò tutto questo materiale documentario della sua attività conquistatrice ed una cambiale, con la firma del povero \index[Personaggi]{Capelli (protocollista)}Capelli ed altra persona con accompagnato un biglietto così concepito:
 \begin{center}
-	\emph{Caro Capelli, vi mando la cambiale che avete firmato per me, che ho pagato, e che ora ha solo un valore di riconoscenza. Vi prego di distruggerla, perchè se la trovano i vostri eredi diranno che vi siete mangiati anche quelli...}
+	\emph{Caro Capelli, vi mando la cambiale che avete firmato per me, che ho pagato, e che ora ha solo un valore di riconoscenza. Vi prego di distruggerla, perché se la trovano i vostri eredi diranno che vi siete mangiati anche quelli...}
 \end{center}
 \:
 \:
@@ -1168,10 +1087,11 @@ Questo capitoletto è presente nell'indice, ma non fu mai scritto.\\
    \includegraphics[width=\textwidth]{"Gioti".jpg}
 \end{figure}
 \\Probabilmente Mingazzi voleva scrivevere qualche racconto su \index[Personaggi]{Marchiani Luigi}Marchiani Luigi. Riporto la prima pagina del racconto su Gioti della mia cara amica Hedda Forlivesi.\\
-\begin{figure}[H]
-\begin{center}
-   \includegraphics[height=0.8\textheight, width=\textwidth]{"Gioti2".jpg}\\
-  \end{center}
+ \begin{figure}[htb]
+    \centering
+    %\vspace{-0.7cm}
+    \includegraphics[width=\textwidth]{Gioti2}
+    %\vspace{-0.3cm}
 \end{figure}
 
 
@@ -1227,12 +1147,12 @@ Il capitano nella sua miserabile giovinezza si era arruolato in una compagnia di
 \\\\P.S. Nando e la Clara mandano a Lei e alla Signora Amalia, a mio mezzo, i loro cordiali e rispettosi saluti.
 }\\
 
-Riporto la facciata della lettera:\\
-\begin{figure}[H]
-\begin{center}
-\vspace{-10pt}
-   \includegraphics[height=0.8\textheight]{"lettera".jpg}\\
-  \end{center}
+\noindent Riporto la facciata della lettera nella pagina seguente.\\
+ \begin{figure}[htb]
+    \centering
+    %\vspace{-0.7cm}
+    \includegraphics[width=\textwidth]{lettera}
+    %\vspace{-0.3cm}
 \end{figure}
 
 %-------------------------------------------------------------------------------
@@ -1257,15 +1177,16 @@ Il Santo
 \rule{1.5cm}{0.4pt}\\
 \\
 \index[Personaggi]{Fabbri Cesare}Fabbri Cesare (ricordi funebri (cavallo))}\\\\
-In allegato vi era anche questo appunto:\\\\
+In allegato vi era anche questo appunto:\\
+\vspace{2cm}
 \emph{Casa posta sulla via\\
 elta o basa che lì sia\\
 quant cla pies e su patron\\
 cusavut te e mi cuion}\\
-\begin{figure}[H]
+\begin{figure}[hbt]
 \begin{center}
 \vspace{-10pt}
-   \includegraphics[height=0.40\textheight]{"FabbriCesare".jpeg}\\
+   \includegraphics[width=\textwidth]{FabbriCesare}
   \end{center}
 \end{figure}
 
@@ -1277,11 +1198,10 @@ cusavut te e mi cuion}\\
 
 %==============================================================================
 
-%-------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	INDEX: PERSONAGGI
-%-------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 \label{Personaggi}
-\chapter*{Personaggi}
 Di seguito riporto i personaggi riconosciuti più rilevanti, aggiungendo eventuali fotografie e la fonte che mi ha permesso di riconoscere il personaggio.
 -gioti: Marchiani Luigi (08/06/1872 - 29/04/1934)
 - Mintèn Giovanni Gallamini (22/12/1865 - 20/05/1944) (oppure suo padre Pietro)
@@ -1289,19 +1209,18 @@ Di seguito riporto i personaggi riconosciuti più rilevanti, aggiungendo eventua
 \setindexprenote{Questo indice contiene tutti i nomi delle persone citate nel libro}
 \printindex[Personaggi]
 
-%-------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	INDEX: LUOGHI
-%-------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 \label{Luoghi}
-\chapter*{Luoghi}
 Di seguito riporto i luoghi riconosciuti più rilevanti, aggiungendo eventuali fotografie e la fonte che mi ha permesso di riconoscere il luogo.
 \renewcommand{\indexname}{Indice dei Luoghi}
 \setindexprenote{Questo indice contiene tutti i luoghi, vie, chiese contenuti nelle storielle.}
 \printindex[Luoghi]
 
 
+\listoffigures
 
-
-%===============================================================================
+%==============================================================================
 
 \end{document}
