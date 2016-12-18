@@ -3,12 +3,11 @@
 %-----------------------------------------------------------------------------
 
 \documentclass[10pt]{memoir} % Font size
-
-\makeindex[Personaggi]
-\makeindex[Luoghi]
-\onecolindextrue
-
 \include{structure}
+
+\makeindex[name=Personaggi,title=Indice dei Personaggi,columns=1]
+\makeindex[name=Luoghi,title=Indice dei Luoghi,columns=1]
+\onecolindextrue
 
 \title{Personaggi Alfonsinesi di Stefano Mingazzi} % Book title
 \author{Lorenzo Andraghetti} % Author
@@ -86,23 +85,20 @@
 %------------------------------------------------------------------------------
 %	INDEX: PERSONAGGI
 %------------------------------------------------------------------------------
-\chapter*{Personaggi}
 \label{Personaggi}
-Di seguito riporto i personaggi riconosciuti più rilevanti, aggiungendo eventuali fotografie e la fonte che mi ha permesso di riconoscere il personaggio.
-- gioti: Marchiani Luigi (08/06/1872 - 29/04/1934)
-- Mintèn Giovanni Gallamini (22/12/1865 - 20/05/1944) (oppure suo padre Pietro)
-\renewcommand{\indexname}{Indice dei Personaggi}
-\setindexprenote{Questo indice contiene tutti i nomi delle persone citate nel libro}
+\indexprologue{Di seguito riporto i personaggi riconosciuti più rilevanti, aggiungendo eventuali fotografie e la fonte che mi ha permesso di riconoscere il personaggio.
+\begin{itemize}
+  \item \textbf{Gioti}: Marchiani Luigi (08/06/1872 - 29/04/1934)
+  \item \textbf{Mintèn}: Giovanni Gallamini (22/12/1865 - 20/05/1944) (oppure suo padre Pietro)
+\end{itemize}
+L'indice che segue contiene tutti i nomi delle persone citate nel libro}
 \printindex[Personaggi]
 
 %------------------------------------------------------------------------------
 %	INDEX: LUOGHI
 %------------------------------------------------------------------------------
-\chapter*{Luoghi}
 \label{Luoghi}
-Di seguito riporto i luoghi riconosciuti più rilevanti, aggiungendo eventuali fotografie e la fonte che mi ha permesso di riconoscere il luogo.
-\renewcommand{\indexname}{Indice dei Luoghi}
-\setindexprenote{Questo indice contiene tutti i luoghi, vie, chiese contenuti nelle storielle.}
+\indexprologue{Questo indice contiene tutti i luoghi, vie, chiese contenuti nelle storielle.}
 \printindex[Luoghi]
 
 
