@@ -1,6 +1,6 @@
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	REQUIRED PACKAGES
-%------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
@@ -19,6 +19,7 @@
 
 %for index layout
 \usepackage{imakeidx}
+
 %images
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -28,8 +29,8 @@
 \usepackage{subfloat}
 
 
-%evitare la rottura delle parole
-\usepackage[none]{hyphenat}
+%\usepackage[none]{hyphenat} %evitare la trocatura delle parole
+\hyphenation{a-gen-tiz-za-zio-ne}
 
 \usepackage{tikz} % Required for drawing custom shapes
 \definecolor[named]{color01}{rgb}{0.1,0.4,0.6} % Color used in the title page
@@ -39,9 +40,9 @@
 
 
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	PAPER, MARGIN AND HEADER/FOOTER SIZES
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \setstocksize{18cm}{12cm} % Paper size
 \settrimmedsize{\stockheight}{\stockwidth}{*} % No trims
@@ -50,9 +51,9 @@
 \setheadfoot{15pt}{19pt} % Header/footer height
 \setheaderspaces{*}{8pt}{*} % Extra header space
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	FOOTNOTE CUSTOMIZATION
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \renewcommand{\foottextfont}{\itshape\footnotesize} 
 % Font settings for footnotes
@@ -69,9 +70,9 @@
 \setlength{\skip\footins}{1\onelineskip} 
 % Space between the body text and the footnote
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	HEADER AND FOOTER FORMATS
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \makepagestyle{mio} % Define a new custom page style
 \setlength{\headwidth}{\textwidth} % Header the same width as the text
@@ -81,18 +82,18 @@
 \makeoddfoot{plain}{}{\footnotesize {\thepage \quad \vrule \quad \thelastpage}}{} % Pages of chapters
 \pagestyle{mio} % Set the page style to the custom style defined above
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	PART FORMAT
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \renewcommand{\partnamefont}{\centering\sffamily\itshape\Huge} % Part name font specification
 \renewcommand{\partnumfont}{\sffamily\Huge} % Part number font specification
 \renewcommand{\parttitlefont}{\centering\sffamily\scshape} % Part title font specification
 \renewcommand{\beforepartskip}{\null\vskip.618\textheight} % Whitespace above the part heading
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	CHAPTER FORMAT
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \usepackage{fourier} % or what ever
 \usepackage{color,calc}
@@ -144,56 +145,57 @@
 
 
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	SECTION FORMAT
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \setsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape\Large} % Section title font specification
 \setbeforesecskip{-.6\onelineskip} % Whitespace before the section
 \setaftersecskip{.3\onelineskip} % Whitespace after the section
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	SUBSECTION FORMAT
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \setsubsecheadstyle{\sethangfrom{\noindent  ##1}\raggedright\sffamily\large\itshape} % Subsection title font specification
 \setbeforesubsecskip{-.5\onelineskip} % Whitespace before the subsection
 \setaftersubsecskip{.2\onelineskip} % Whitespace after the subsection
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	SUBSUBSECTION FORMAT
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \setsubsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape} % Subsubsection title font specification
 \setbeforesubsubsecskip{-.5\onelineskip} % Whitespace before the subsubsection
 \setaftersubsubsecskip{.1\onelineskip} % Whitespace after the subsubsection
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	CAPTION FORMAT
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \captiontitlefont{\itshape\footnotesize} % Caption font specification
 \captionnamefont{\footnotesize} % "Caption" text font specification
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	QUOTATION ENVIRONMENT FORMAT
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \renewenvironment{quotation}
 {\par\leftskip=1em\vskip.5\onelineskip\em}
 {\par\vskip.5\onelineskip}
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	QUOTE ENVIRONMENT FORMAT
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \renewenvironment{quote}
 {\list{}{\em\leftmargin=1em}\item[]}{\endlist\relax}
 
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	MISCELLANEOUS DOCUMENT SPECIFICATIONS
-%-------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
+\setlength{\parindent}{0.7em}
 
 \midsloppy % Fewer overfull lines - used in the memoir class and allows a setting somewhere between \fussy and \sloppy
 

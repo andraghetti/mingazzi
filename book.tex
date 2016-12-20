@@ -5,15 +5,15 @@
 \documentclass[10pt]{memoir} % Font size
 \include{structure}
 
-\makeindex[name=Personaggi,title=Indice dei Personaggi,columns=1]
-\makeindex[name=Luoghi,title=Indice dei Luoghi,columns=1]
+\makeindex[name=Personaggi,title=Indice dei Personaggi,columns=1,intoc]
+\makeindex[name=Luoghi,title=Indice dei Luoghi,columns=1,intoc]
 \onecolindextrue
 
 \title{Personaggi Alfonsinesi di Stefano Mingazzi} % Book title
 \author{Lorenzo Andraghetti} % Author
 \newcommand{\edition}{Prima Edizione} % Book edition
 
-%------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 
 \begin{document}
 
@@ -26,6 +26,8 @@
 \pagestyle{plain}\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ #1}{}} 
 \renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}  
 
+\chapterstyle{BlueBox}
+\pagestyle{mio}
 \include{Indice}
 
 \include{Biografia}
@@ -33,7 +35,7 @@
 \include{CriteriTrascrizione}
 
 % Da qui in poi necessito stile bello per i titoli:
-\chapterstyle{BlueBox}
+
 
 \include{capitolo1}
 \include{capitolo2}
@@ -80,11 +82,11 @@
 \include{capitolo43}
 
 
-%==============================================================================
+%=============================================================================
 
-%------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	INDEX: PERSONAGGI
-%------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 \label{Personaggi}
 \indexprologue{Di seguito riporto i personaggi riconosciuti più rilevanti, aggiungendo eventuali fotografie e la fonte che mi ha permesso di riconoscere il personaggio.
 \begin{itemize}
@@ -94,14 +96,14 @@
 L'indice che segue contiene tutti i nomi delle persone citate nel libro}
 \printindex[Personaggi]
 
-%------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %	INDEX: LUOGHI
-%------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 \label{Luoghi}
-\indexprologue{Questo indice contiene tutti i luoghi, vie, chiese contenuti nelle storielle.}
+\indexprologue{Questo indice contiene tutti i luoghi, le vie, le chiese ed i palazzi contenuti nelle storielle.}
 \printindex[Luoghi]
 
 
-%==============================================================================
+%=============================================================================
 
 \end{document}
