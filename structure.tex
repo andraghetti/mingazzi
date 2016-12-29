@@ -77,7 +77,7 @@
 \makepagestyle{mio} % Define a new custom page style
 \setlength{\headwidth}{\textwidth} % Header the same width as the text
 \makeheadrule{mio}{\textwidth}{0.1mm} % Header rule height
-\makeoddhead{mio}{\scriptsize{\theauthor\hskip.2cm\vrule\hskip.2cm\itshape{\thetitle}}}{}{} % Header specification
+\makeoddhead{mio}{\scriptsize{\theauthor\hskip.2cm\vrule\hskip.2cm\itshape{\footnotesize \thetitle}}}{}{} % Header specification
 \makeoddfoot{mio}{}{\scriptsize {\thepage \quad \vrule \quad \thelastpage}}{} % Footer specification
 \makeoddfoot{plain}{}{\footnotesize {\thepage \quad \vrule \quad \thelastpage}}{} % Pages of chapters
 \pagestyle{mio} % Set the page style to the custom style defined above
@@ -172,9 +172,10 @@
 %-----------------------------------------------------------------------------
 %	CAPTION FORMAT
 %-----------------------------------------------------------------------------
-
+\usepackage[labelfont=it,textfont={it},font=small]{caption}
 \captiontitlefont{\itshape\footnotesize} % Caption font specification
 \captionnamefont{\footnotesize} % "Caption" text font specification
+\captionfont{\itshape\footnotesize}
 
 %-----------------------------------------------------------------------------
 %	QUOTATION ENVIRONMENT FORMAT
