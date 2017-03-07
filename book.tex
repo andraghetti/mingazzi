@@ -15,7 +15,26 @@
 
 %-----------------------------------------------------------------------------
 
+%-------per rilegazione e stampa in A5---------->
+\usepackage{pdfpages}
+\usepackage{ifpdf,ifxetex}
+\makeatletter
+\ifpdf
+  \EveryShipout{\ifodd\c@page\else\pdfpageattr{/Rotate 180}\fi}%
+\fi
+\ifxetex
+  \EveryShipout{\ifodd\c@page\special{pdf: put @thispage << /Rotate 180 >>}%
+\fi
+}
+%-------per rilegazione e stampa in A5----------
+
+\fi
+\makeatother
 \begin{document}
+
+%-------per rilegazione e stampa in A5---------->
+\includepdf[pages=-, nup=1x2, booklet=true, landscape]{book.pdf}
+%-------per rilegazione e stampa in A5----------
 
 \include{Copertina}
 \chapterstyle{default}
