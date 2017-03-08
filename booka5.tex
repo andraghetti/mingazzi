@@ -1,0 +1,18 @@
+\documentclass[a4paper,final]{article}
+\usepackage{pdfpages}
+\usepackage{ifpdf,ifxetex,everyshi}
+\makeatletter
+\ifpdf
+  \EveryShipout{\ifodd\c@page\else\pdfpageattr{/Rotate 180}\fi}%
+\fi
+\ifxetex
+  \EveryShipout{\ifodd\c@page\special{pdf: put @thispage << /Rotate 180 >>}%
+\fi
+}
+
+\fi
+\makeatother
+
+\begin{document}
+\includepdf[pages=-, nup=1x2, booklet=true, landscape]{book.pdf}
+\end{document}
