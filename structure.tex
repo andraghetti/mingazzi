@@ -44,10 +44,10 @@
 %	PAPER, MARGIN AND HEADER/FOOTER SIZES
 %-----------------------------------------------------------------------------
 
-\setstocksize{18cm}{12cm} % Paper size
+\setstocksize{18cm}{13cm} % Paper size
 \settrimmedsize{\stockheight}{\stockwidth}{*} % No trims
-\setlrmarginsandblock{2cm}{1cm}{*}% % Left/right margins
-\setulmarginsandblock{30pt}{40pt}{*} % Top/bottom margins
+\setlrmarginsandblock{2.5cm}{1.5cm}{*}% % Left/right margins
+\setulmarginsandblock{30pt}{45pt}{*} % Top/bottom margins
 \setheadfoot{15pt}{19pt} % Header/footer height
 \setheaderspaces{*}{8pt}{*} % Extra header space
 
@@ -76,10 +76,10 @@
 
 \makepagestyle{mio} % Define a new custom page style
 \setlength{\headwidth}{\textwidth} % Header the same width as the text
-\makeheadrule{mio}{\textwidth}{0.1mm} % Header rule height
-\makeoddhead{mio}{\scriptsize{\theauthor\hskip.2cm\vrule\hskip.2cm\itshape{\footnotesize \thetitle}}}{}{} % Header specification
-\makeoddfoot{mio}{}{\scriptsize {\thepage \quad \vrule \quad \thelastpage}}{} % Footer specification
-\makeoddfoot{plain}{}{\footnotesize {\thepage \quad \vrule \quad \thelastpage}}{} % Pages of chapters
+%\makeheadrule{mio}{\textwidth}{0.1mm} % Header rule height
+%\makeoddhead{mio}{\scriptsize{\theauthor\hskip.2cm\vrule\hskip.2cm\itshape{\footnotesize \thetitle}}}{}{} % Header specification
+\makeoddfoot{mio}{}{\scriptsize {\thepage}}{} % Footer specification
+\makeoddfoot{plain}{}{\footnotesize {\thepage}}{} % Pages of chapters
 \pagestyle{mio} % Set the page style to the custom style defined above
 
 %-----------------------------------------------------------------------------

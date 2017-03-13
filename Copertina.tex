@@ -1,22 +1,25 @@
 \thispagestyle{empty} % Suppress page numbering
-\ThisCenterWallPaper{1.12}{Mingazzi.jpg} % Add the background image, the first argument is the scaling - adjust this as necessary so the image fits the entire page
+\ThisCenterWallPaper{1.095}{Mingazzi.jpg} % Add the background image, the first argument is the scaling - adjust this as necessary so the image fits the entire page
 
 \begin{tikzpicture}[remember picture,overlay]
-\node [rectangle, rounded corners, fill=white, opacity=0.75, anchor=south west, minimum width=4.5cm, minimum height=8.0cm] (box) at (-1,-15) (box){}; % White rectangle - "minimum width/height" adjust the width and height of the box; "(-0.5,-10)" adjusts the position on the page
+\node [rectangle, rounded corners, fill=white, opacity=0.95, anchor=south west, minimum width=4.5cm, minimum height=8.2cm] (box) at (-1,-15) (box){}; % White rectangle - "minimum width/height" adjust the width and height of the box; "(-0.5,-10)" adjusts the position on the page
 
 %------ EDIZIONE
 \node[anchor=west, color01, xshift=-1.8cm, yshift=-0.5cm, text width=5cm, font=\sffamily\scriptsize] at (box.north){\large \edition}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
 
 %------- TITOLO
 
-\node[anchor=west, color01, xshift=-1.8cm, yshift=-2.2cm, text width=5cm, font=\sffamily\bfseries\scshape\Large] at (box.north){\Huge \textbf{Personaggi\\Alfonsinesi}}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
+\node[anchor=west, color01, xshift=-1.8cm, yshift=-2.2cm, text width=5cm, font=\sffamily\bfseries\scshape\Large] at (box.north){\Huge \textbf{Personaggi\\Alfonsinesi}};
 
-\node[anchor=west, color01, xshift=-1.8cm, yshift=-3.3cm, text width=5cm, font=\sffamily\bfseries\scshape] at (box.north){\\ di\\}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
+\node[anchor=west, color01, xshift=-1.8cm, yshift=-3.1cm, text width=5cm, font=\sffamily\bfseries\scshape] at (box.north){\\ di\\};
 
-\node[anchor=west, color01, xshift=-1.8cm, yshift=-4.5cm, text width=5cm, font=\sffamily\bfseries\scshape\Large] at (box.north){\huge \textbf{Stefano \\Mingazzi}}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
+\node[anchor=west, color01, xshift=-1.8cm, yshift=-4.2cm, text width=5cm, font=\sffamily\bfseries\scshape\Large] at (box.north){\huge \textbf{Stefano \\Mingazzi}};
 
 %------- AUTORE
-\node[anchor=west, color01, xshift=-1.8cm, yshift=-7.0cm, text width=5cm, font=\sffamily\bfseries] at (box.north){\Large Lorenzo\\ Andraghetti}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
+\node[anchor=west, color01, xshift=-1.8cm, yshift=-5.8cm, text width=5cm, font=\sffamily\bfseries] at (box.north){a cura di};
+\node[anchor=west, color01, xshift=-1.8cm, yshift=-6.8cm, text width=5cm, font=\sffamily\bfseries] at (box.north){\huge Lorenzo\\ Andraghetti};
+
+% "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
 \end{tikzpicture}
 
 \newpage % Make sure the following content is on a new page
