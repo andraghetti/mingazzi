@@ -39,17 +39,22 @@
 \usepackage[unicode=true,bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,breaklinks=false,pdfborder={0 0 1},backref=section,colorlinks=false]{hyperref} % PDF meta-information specification
 
 
+%-----------------------------------------------------------------------------
+%	TABLE OF CONTENTS (INDICE)
+%-----------------------------------------------------------------------------
+\usepackage{tocloft}
+
 
 %-----------------------------------------------------------------------------
 %	PAPER, MARGIN AND HEADER/FOOTER SIZES
 %-----------------------------------------------------------------------------
 
-\setstocksize{18cm}{13cm} % Paper size
+\setstocksize{18.5cm}{13cm} % Paper size
 \settrimmedsize{\stockheight}{\stockwidth}{*} % No trims
-\setlrmarginsandblock{2.5cm}{1.5cm}{*}% % Left/right margins
-\setulmarginsandblock{30pt}{45pt}{*} % Top/bottom margins
+\setlrmarginsandblock{1.5cm}{1.5cm}{*}% % Left/right margins
+\setulmarginsandblock{1.5cm}{1.5cm}{*} % Top/bottom margins
 \setheadfoot{15pt}{19pt} % Header/footer height
-\setheaderspaces{*}{8pt}{*} % Extra header space
+%\setheaderspaces{*}{8pt}{*} % Extra header space
 
 %-----------------------------------------------------------------------------
 %	FOOTNOTE CUSTOMIZATION
@@ -78,8 +83,10 @@
 \setlength{\headwidth}{\textwidth} % Header the same width as the text
 %\makeheadrule{mio}{\textwidth}{0.1mm} % Header rule height
 %\makeoddhead{mio}{\scriptsize{\theauthor\hskip.2cm\vrule\hskip.2cm\itshape{\footnotesize \thetitle}}}{}{} % Header specification
-\makeoddfoot{mio}{}{\scriptsize {\thepage}}{} % Footer specification
-\makeoddfoot{plain}{}{\footnotesize {\thepage}}{} % Pages of chapters
+\makeoddfoot{mio}{}{\large {\thepage}}{} % Footer specification
+\makeevenfoot{mio}{}{\large {\thepage}}{} % Footer specification
+\makeoddfoot{plain}{}{\large {\thepage}}{} % Pages of chapters
+\makeevenfoot{plain}{}{\large {\thepage}}{} % Pages of chapters
 \pagestyle{mio} % Set the page style to the custom style defined above
 
 %-----------------------------------------------------------------------------
