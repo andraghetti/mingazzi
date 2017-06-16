@@ -31,6 +31,11 @@
 
 %\usepackage[none]{hyphenat} %evitare la trocatura delle parole
 \hyphenation{a-gen-tiz-za-zio-ne}
+\pretolerance=10000
+\tolerance=9000 
+\emergencystretch=0pt
+\righthyphenmin=4
+\lefthyphenmin=4
 
 \usepackage{tikz} % Required for drawing custom shapes
 \definecolor[named]{color01}{rgb}{0.1,0.4,0.6} % Color used in the title page
@@ -180,6 +185,7 @@
 %	CAPTION FORMAT
 %-----------------------------------------------------------------------------
 \usepackage[labelfont=it,textfont={it},font=small]{caption}
+\captionsetup[figure]{labelformat=empty}% redefines the caption setup of the figures environment in the beamer class.
 \captiontitlefont{\itshape\footnotesize} % Caption font specification
 \captionnamefont{\footnotesize} % "Caption" text font specification
 \captionfont{\itshape\footnotesize}
