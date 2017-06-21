@@ -31,7 +31,7 @@
 
 %\usepackage[none]{hyphenat} %evitare la trocatura delle parole
 \hyphenation{a-gen-tiz-za-zio-ne}
-\pretolerance=10000
+\pretolerance=7000
 \tolerance=9000 
 \emergencystretch=0pt
 \righthyphenmin=4
@@ -190,27 +190,10 @@
 \captionnamefont{\footnotesize} % "Caption" text font specification
 \captionfont{\itshape\footnotesize}
 
-%il codice seguente elimina gli spazi nella lista delle figure tra
-% tra un capitolo e l'altro.
-\makeatletter
-\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
-                          \refstepcounter{chapter}%
-                          \typeout{\@chapapp\space\thechapter.}%
-                          \addcontentsline{toc}{chapter}%
-                                    {\protect\numberline{\thechapter}#1}%
-                     \else
-                       \addcontentsline{toc}{chapter}{#1}%
-                     \fi
-                     \chaptermark{#1}%
-                     \if@twocolumn
-                       \@topnewpage[\@makechapterhead{#2}]%
-                     \else
-                       \@makechapterhead{#2}%
-                       \@afterheading
-                     \fi}
-\makeatother
+\counterwithout{figure}{chapter} % per avere numeri sequenziali in LOF
 
-%-----------------------------------------------------------------------------
+ % per avere niente spazio tra figure in LOF
+\renewcommand{\insertchapterspace}{}%-----------------------------------------------------------------------------
 %	QUOTATION ENVIRONMENT FORMAT
 %-----------------------------------------------------------------------------
 
