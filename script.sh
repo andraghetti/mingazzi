@@ -3,5 +3,7 @@ rm *.aux;
 rm *.out;
 rm *.toc;
 rm *.log;
+rm *.lof;
 makeindex Personaggi.idx;
 makeindex Luoghi.idx;
+rm *.ilg;
